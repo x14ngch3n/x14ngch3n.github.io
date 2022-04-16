@@ -3,7 +3,7 @@ title: Writing a New Post
 author: cotes
 date: 2019-08-08 14:10:00 +0800
 categories: [Blogging, Tutorial]
-tags: [writing]
+# tags: [writing]
 render_with_liquid: false
 ---
 
@@ -56,6 +56,7 @@ Add author information in `_data/authors.yml` (If your website doesn't have this
   twitter: <twitter_of_author>
   url: <homepage_of_author>
 ```
+
 {: file="_data/authors.yml" }
 
 And then set up the custom author in the post's YAML block:
@@ -123,6 +124,7 @@ Add italics to the next line of an image，then it will become the caption and a
 ![img-description](/path/to/image)
 _Image Caption_
 ```
+
 {: .nolineno}
 
 ### Size
@@ -132,6 +134,7 @@ In order to prevent the page content layout from shifting when the image is load
 ```markdown
 ![Desktop View](/assets/img/sample/mockup.png){: width="700" height="400" }
 ```
+
 {: .nolineno}
 
 Starting from _Chirpy v5.0.0_, `height` and `width` support abbreviations (`height` → `h`, `width` → `w`). The following example has the same effect as the above:
@@ -139,6 +142,7 @@ Starting from _Chirpy v5.0.0_, `height` and `width` support abbreviations (`heig
 ```markdown
 ![Desktop View](/assets/img/sample/mockup.png){: w="700" h="400" }
 ```
+
 {: .nolineno}
 
 ### Position
@@ -155,6 +159,7 @@ By default, the image is centered, but you can specify the position by using one
   ```markdown
   ![Desktop View](/assets/img/sample/mockup.png){: .normal }
   ```
+
   {: .nolineno}
 
 - **Float to the left**
@@ -162,6 +167,7 @@ By default, the image is centered, but you can specify the position by using one
   ```markdown
   ![Desktop View](/assets/img/sample/mockup.png){: .left }
   ```
+
   {: .nolineno}
 
 - **Float to the right**
@@ -169,6 +175,7 @@ By default, the image is centered, but you can specify the position by using one
   ```markdown
   ![Desktop View](/assets/img/sample/mockup.png){: .right }
   ```
+
   {: .nolineno}
 
 ### Shadow
@@ -178,6 +185,7 @@ The screenshots of the program window can be considered to show the shadow effec
 ```markdown
 ![Desktop View](/assets/img/sample/mockup.png){: .shadow }
 ```
+
 {: .nolineno}
 
 ### CDN URL
@@ -187,6 +195,7 @@ If you host the images on the CDN, you can save the time of repeatedly writing t
 ```yaml
 img_cdn: https://cdn.com
 ```
+
 {: file='_config.yml' .nolineno}
 
 Once `img_cdn` is assigned, the CDN URL will be added to the path of all images (images of site avatar and posts) starting with `/`.
@@ -196,6 +205,7 @@ For instance, when using images:
 ```markdown
 ![The flower](/path/to/flower.png)
 ```
+
 {: .nolineno}
 
 The parsing result will automatically add the CDN prefix `https://cdn.com` before the image path:
@@ -203,6 +213,7 @@ The parsing result will automatically add the CDN prefix `https://cdn.com` befor
 ```html
 <img src="https://cdn.com/path/to/flower.png" alt="The flower">
 ```
+
 {: .nolineno}
 
 ### Image Path
@@ -214,6 +225,7 @@ When a post contains many images, it will be a time-consuming task to repeatedly
 img_path: /img/path/
 ---
 ```
+
 {: .nolineno }
 
 And then, the image source of Markdown can write the file name directly:
@@ -221,6 +233,7 @@ And then, the image source of Markdown can write the file name directly:
 ```md
 ![The flower](flower.png)
 ```
+
 {: .nolineno }
 
 The output will be:
@@ -228,6 +241,7 @@ The output will be:
 ```html
 <img src="/img/path/flower.png" alt="The flower">
 ```
+
 {: .nolineno }
 
 ### Preview Image
@@ -266,6 +280,7 @@ There are several types of prompts: `tip`, `info`, `warning`, and `danger`. They
 > Example line for prompt.
 {: .prompt-info }
 ```
+
 {: .nolineno }
 
 ## Syntax
@@ -275,6 +290,7 @@ There are several types of prompts: `tip`, `info`, `warning`, and `danger`. They
 ```md
 `inline code part`
 ```
+
 {: .nolineno }
 
 ### Filepath Hightlight
@@ -282,6 +298,7 @@ There are several types of prompts: `tip`, `info`, `warning`, and `danger`. They
 ```md
 `/path/to/a/file.extend`{: .filepath}
 ```
+
 {: .nolineno }
 
 ### Code Block

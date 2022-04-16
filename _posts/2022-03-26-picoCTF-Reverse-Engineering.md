@@ -1,7 +1,7 @@
 ---
 title: picoCTF writeup for RE
 category: [writeup, OJ] 
-tags: [revserse]
+tags: [reverse]
 ---
 
 > 前段时间花了3-4天打了CMU举办的picoCTF 2022，发现这个比赛相比于国内的CTF比赛来说题目阶梯性更好，范围更广，也更加让人感兴趣（可能是因为题目简单容易拿flag）。于是打算刷一下picoCTF的其他题目，也都是往期picoCTF的题目合集，希望能提高自己的逆向能力。之后也可以考虑考虑刷刷其他的入门级CTF题库，比如Reversing.Kr和一些国内的平台。

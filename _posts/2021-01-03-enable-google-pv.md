@@ -3,7 +3,7 @@ title: Enable Google Page Views
 author: sille_bille
 date: 2021-01-03 18:32:00 -0500
 categories: [Blogging, Tutorial]
-tags: [google analytics, pageviews]
+# tags: [google analytics, pageviews]
 ---
 
 
@@ -45,6 +45,7 @@ google_analytics:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
     cache_path:       # the local PV cache data, friendly to visitors from GFW region
 ```
+
 {: file="_config.yml"}
 
 When you push these changes to your blog, you should start seeing the traffic on your Google Analytics. Play around with the Google Analytics dashboard to get familiar with the options available as it takes like 5 mins to pick up your changes. You should now be able to monitor your traffic in real time.
@@ -113,7 +114,7 @@ There is a detailed [tutorial](https://developers.google.com/analytics/solutions
 
 1. Clone the **Google Analytics superProxy** project on Github: <https://github.com/googleanalytics/google-analytics-super-proxy> to your local.
 
-2.  Remove the first 2 lines in the [`src/app.yaml`{: .filepath}](https://github.com/googleanalytics/google-analytics-super-proxy/blob/master/src/app.yaml#L1-L2) file:
+2. Remove the first 2 lines in the [`src/app.yaml`{: .filepath}](https://github.com/googleanalytics/google-analytics-super-proxy/blob/master/src/app.yaml#L1-L2) file:
 
     ```diff
     - application: your-project-id
@@ -122,7 +123,7 @@ There is a detailed [tutorial](https://developers.google.com/analytics/solutions
 
 3. In `src/config.py`{: .filepath}, add the `OAUTH_CLIENT_ID` and `OAUTH_CLIENT_SECRET` that you gathered from your App Engine Dashboard.
 
-4.  Enter any random key for `XSRF_KEY`, your `config.py`{: .filepath} should look similar to this
+4. Enter any random key for `XSRF_KEY`, your `config.py`{: .filepath} should look similar to this
 
     ```python
     #!/usr/bin/python2.7
@@ -142,13 +143,14 @@ There is a detailed [tutorial](https://developers.google.com/analytics/solutions
     # XSRF Settings
     XSRF_KEY = 'OnceUponATimeThereLivedALegend'
     ```
+
     {: file="src/config.py"}
 
     > You can configure a custom domain instead of `https://PROJECT_ID.REGION_ID.r.appspot.com`.
     > But, for the sake of keeping it simple, we will be using the Google provided default URL.
     {: .prompt-info }
 
-5.  From inside the `src/`{: .filepath} directory, deploy the app
+5. From inside the `src/`{: .filepath} directory, deploy the app
 
     ```console
     [root@bc96abf71ef8 src]# gcloud app deploy
@@ -230,6 +232,7 @@ google_analytics:
     proxy_endpoint: 'https://PROJECT_ID.REGION_ID.r.appspot.com/query?id=<ID FROM SUPER PROXY>'
     cache_path:       # the local PV cache data, friendly to visitors from GFW region
 ```
+
 {: file="_config.yml"}
 
 Now, you should see the Page View enabled on your blog.
