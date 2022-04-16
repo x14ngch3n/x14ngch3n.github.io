@@ -3,7 +3,7 @@ title: Text and Typography
 author: cotes
 date: 2019-08-08 11:33:00 +0800
 categories: [Blogging, Demo]
-tags: [typography]
+# tags: [typography]
 math: true
 mermaid: true
 image:
@@ -14,9 +14,10 @@ image:
 
 This post is to show Markdown syntax rendering on [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork), you can also use it as an example of writing. Now, let's start looking at text and typography.
 
-
 ## Titles
+
 ---
+
 # H1 - heading
 
 <h2 data-toc-skip>H2 - heading</h2>
@@ -204,6 +205,7 @@ fi;
   "colors/light-typography",
   "colors/dark-typography"
 ```
+
 {: file='_sass/jekyll-theme-chirpy.scss'}
 
 ## Reverse Footnote

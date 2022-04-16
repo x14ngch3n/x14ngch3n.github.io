@@ -89,7 +89,7 @@ avatar: https://s2.loli.net/2022/03/28/nfiwONPYR5ztm8H.jpg
 toc: true
 
 comments:
-  active: giscus        # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname: cascades-1   # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
