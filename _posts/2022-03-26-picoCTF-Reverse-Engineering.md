@@ -473,7 +473,7 @@ java -jar ~/Tools/uber-apk-signer-1.2.1.jar -a recompile
 
 类似的程序逻辑，将getFlag中的逻辑提取出来，得到字符串"alphabetsoup"，然后返回"call it"。结合提示，在getFlag中调用应该是能够获取flag的cardamom函数即可。但是如果直接在getFlag的最开始调用这个函数，直接绕过password的检查，运行的时候会闪退，不知道为啥。
 
-在FlagstaffHIll.smali{: .filepath}的条件判断语句`if-eqz v5, :cond_0`后添加如下smali代码来出发函数：
+在`FlagstaffHIll.smali`的条件判断语句`if-eqz v5, :cond_0`后添加如下smali代码来触发函数：
 
 ```java
 invoke-static {p0}, Lcom/hellocmu/picoctf/FlagstaffHill;->cardamom(Ljava/lang/String;)Ljava/lang/String;
