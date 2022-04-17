@@ -1,6 +1,6 @@
 ---
-title: Detecting Kernel Memory Leaks in Specialized Modules With Ownership Reasoning 论文阅读
-category: [paper, PL]
+title: Detecting Kernel Memory Leaks in Specialized Modules With Ownership Reasoning
+category: [paper, security]
 tags: [kernel, program analysis]
 ---
 

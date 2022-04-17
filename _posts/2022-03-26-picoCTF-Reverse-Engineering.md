@@ -404,7 +404,7 @@ except UcError as e:
     print("ERROR: %s" % e)
 ```
 
-## asm4
+### asm4
 
 采用asm3的方法编译出二进制程序，直接运行出结果。需要修改`jne  0x514 <asm4+23>`为`jne  asm4+23`才能正确地找到相对地址，也可以使用内联汇编来嵌入汇编代码到目标文件中。
 程序逻辑如下：
@@ -471,8 +471,17 @@ java -jar ~/Tools/uber-apk-signer-1.2.1.jar -a recompile
 
 ### droids4
 
-类似的程序逻辑，将getFlag中的逻辑提取出来，得到字符串"alphabetsoup"，然后返回"call it"。结合提示，在getFlag中调用应该是能够获取flag的cardamom函数即可。
-如果直接在getFlag的最开始调用这个函数，直接绕过password的检查，运行的时候会闪退，不知道为啥。
+类似的程序逻辑，将getFlag中的逻辑提取出来，得到字符串"alphabetsoup"，然后返回"call it"。结合提示，在getFlag中调用应该是能够获取flag的cardamom函数即可。但是如果直接在getFlag的最开始调用这个函数，直接绕过password的检查，运行的时候会闪退，不知道为啥。
+
+在FlagstaffHIll.smali{: .filepath}的条件判断语句`if-eqz v5, :cond_0`后添加如下smali代码来出发函数：
+
+```java
+invoke-static {p0}, Lcom/hellocmu/picoctf/FlagstaffHill;->cardamom(Ljava/lang/String;)Ljava/lang/String;
+
+move-result-object v0
+
+return-object v0
+```
 
 ## ARMssembly
 
