@@ -8,7 +8,7 @@ tags: [kernel, program analysis]
 
 ## 论文阅读
 
-主要分析了Ownership机制中的逃逸者分析和消费者分析，并对论文的实验结果进行了分析。[报告Slides](https://cascadeschen.cn/assets/slides/ndss21kernelleak.pdf)
+主要分析了Ownership机制中的逃逸者分析和消费者分析，并对论文的实验结果进行了分析。[报告Slides](https://cascades-sjtu.github.io/assets/slides/ndss21kernelleak.pdf)
 
 ## 论文复现
 
