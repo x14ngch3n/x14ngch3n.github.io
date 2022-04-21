@@ -2,16 +2,20 @@
 title: Learning The Rust Programming Language
 category: [course, Github]
 tags: [rust]
+mermaid: true
 ---
 
 > 记录我学习Rust的过程
 
+使用mermaid[^mermaid]生成的gantt图：
+
 ```mermaid
- gantt
+gantt
   title  Rust学习进度
-  阅读the book :active, p1,2022-04-18, 1w
-  练习rustlings :active, p2, 2022-04-18, 1w
-  安装cwe_checker :p3, 2022-04-20, 1d
+  dateFormat YY-M-D
+  阅读the book: active, p1, 2022-04-18, 4d
+  练习rustlings: active, p2, 2022-04-18, 4d
+  安装cwe_checker: p3, 2022-04-20, 1d
 ```
 
 ## 为什么选择Rust？
@@ -46,4 +50,5 @@ tags: [rust]
   * [The Rust community’s crate registry](https://crates.io)：Codebases
   * [Rusty Book](https://rusty.rs/about.html)：Awesome Rust + Rust Cookbook
 
+[^mermaid]: https://mermaid-js.github.io/mermaid/#/
 [^fp]: https://zh.wikipedia.org/wiki/函数式编程
