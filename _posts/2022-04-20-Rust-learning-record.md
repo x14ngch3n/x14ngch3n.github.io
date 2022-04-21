@@ -12,7 +12,7 @@ mermaid: true
 ```mermaid
 gantt
   title  Rust学习进度
-  dateFormat YY-M-D
+  dateFormat YYYY-MM-DD
   阅读the book: active, p1, 2022-04-18, 4d
   练习rustlings: active, p2, 2022-04-18, 4d
   安装cwe_checker: p3, 2022-04-20, 1d
@@ -37,7 +37,12 @@ gantt
   * [Rustlings](https://github.com/rust-lang/rustlings)：Small Rust exercises
   * [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html)：A collection of runnable Rust examples
   * [Rust语言实战](https://practice.rs/)：配套《Rust语言圣经》
-  * [Rust培训](https://rustedu.com)：阿图教育，带着你学以上书籍
+
+* 课程：
+  * [Rust培训](<https://rustedu.com>)：阿图教育，带着你学以上书籍
+  * [CS110L](https://web.stanford.edu/class/cs110l/)：Safety in Systems Programming
+  * [KAIST CS431](https://github.com/kaist-cp/cs431)：Concurrent Programming
+  * [rCore](https://github.com/LearningOS/os-lectures)：从零开始用Rust写一个基于RISC-V架构的类Unix内核
 
 * 论坛：
   * [Rust语言中文社区](https://rustcc.cn)
@@ -49,6 +54,11 @@ gantt
 * 项目：
   * [The Rust community’s crate registry](https://crates.io)：Codebases
   * [Rusty Book](https://rusty.rs/about.html)：Awesome Rust + Rust Cookbook
+
+## Rust学习计划
+
+* [.] 阅读the book，做完配套练习rustlings
+* [.] 阅读examples，看懂代码逻辑和解释
 
 [^mermaid]: https://mermaid-js.github.io/mermaid/#/
 [^fp]: https://zh.wikipedia.org/wiki/函数式编程
