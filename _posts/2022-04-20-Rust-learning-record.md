@@ -7,17 +7,6 @@ mermaid: true
 
 > 记录我学习Rust的过程
 
-使用mermaid[^mermaid]生成的gantt图：
-
-```mermaid
-gantt
-  title  Rust学习进度
-  dateFormat YYYY-MM-DD
-  阅读the book: active, p1, 2022-04-18, 4d
-  练习rustlings: active, p2, 2022-04-18, 4d
-  安装cwe_checker: p3, 2022-04-20, 1d
-```
-
 ## 为什么选择Rust？
 
 * 想对用Rust写的[cwe_checker](https://github.com/fkie-cad/cwe_checker)进行二次开发
@@ -32,6 +21,8 @@ gantt
 * 书籍：
   * [The Rust Programming Language(the book)](https://github.com/rust-lang/book)：Rust官方书籍
   * [Rust语言圣经](https://course.rs)：Rust中文学习教程
+  * [Rusty Book](https://rusty.rs/about.html)：Awesome Rust + Rust Cookbook
+  * [Rust编程之道](https://docs.rs/tao-of-rust/1.0.1/tao_of_rust/)：张汉东著
 
 * 练习：
   * [Rustlings](https://github.com/rust-lang/rustlings)：Small Rust exercises
@@ -51,14 +42,26 @@ gantt
 * 公众号：
   * 2121实验空间
 
-* 项目：
-  * [The Rust community’s crate registry](https://crates.io)：Codebases
-  * [Rusty Book](https://rusty.rs/about.html)：Awesome Rust + Rust Cookbook
+* 数据库：
+  * [crates.io](https://crates.io)：The Rust community’s crate registry
+  * [RustSec](https://rustsec.org/advisories/)：The Rust Security Advisory Database
 
 ## Rust学习计划
 
-* [.] 阅读the book，做完配套练习rustlings
-* [.] 阅读examples，看懂代码逻辑和解释
+使用mermaid[^mermaid]生成的gantt图：
 
-[^mermaid]: https://mermaid-js.github.io/mermaid/#/
+```mermaid
+gantt
+  title  Rust学习进度
+  dateFormat YYYY-MM-DD
+  阅读the book: active, p1, 2022-04-18, 4d
+  练习rustlings: active, p2, 2022-04-18, 4d
+  安装cwe_checker: p3, 2022-04-20, 1d
+```
+
+* [·] 阅读the book，做完配套练习rustlings
+* [·] 阅读examples，看懂代码逻辑和解释
+* [.] 阅读cwe_checker的源代码
+
 [^fp]: https://zh.wikipedia.org/wiki/函数式编程
+[^mermaid]: https://mermaid-js.github.io/mermaid/
