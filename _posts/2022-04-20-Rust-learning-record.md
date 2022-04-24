@@ -1,6 +1,6 @@
 ---
 title: Learning The Rust Programming Language
-category: [course, Github]
+category: [course]
 tags: [rust]
 mermaid: true
 ---
@@ -23,6 +23,7 @@ mermaid: true
   * [Rust语言圣经](https://course.rs)：Rust中文学习教程
   * [Rusty Book](https://rusty.rs/about.html)：Awesome Rust + Rust Cookbook
   * [Rust编程之道](https://docs.rs/tao-of-rust/1.0.1/tao_of_rust/)：张汉东著
+  * [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/index.html)：宏小册
 
 * 练习：
   * [Rustlings](https://github.com/rust-lang/rustlings)：Small Rust exercises
@@ -36,7 +37,7 @@ mermaid: true
   * [rCore](https://github.com/LearningOS/os-lectures)：从零开始用Rust写一个基于RISC-V架构的类Unix内核
 
 * 论坛：
-  * [Rust语言中文社区](https://rustcc.cn)
+  * [Rust语言中文社区](https://rustcc.cn)：包括一些专栏的分享
   * [Rust语言开源杂志](https://github.com/RustMagazine)：月/季度杂志，包括了一些专栏
 
 * 公众号：
@@ -54,14 +55,17 @@ mermaid: true
 gantt
   title  Rust学习进度
   dateFormat YYYY-MM-DD
-  阅读the book: active, p1, 2022-04-18, 4d
-  练习rustlings: active, p2, 2022-04-18, 4d
-  安装cwe_checker: p3, 2022-04-20, 1d
+  阅读the book: active, p1, 2022-04-18, 7d
+  练习rustlings: active, p2, 2022-04-18, 6d
+  阅读rust语言圣经: p3, after p1, 7d
+  安装cwe_checker: , 2022-04-20, 1d
 ```
 
-* [·] 阅读the book，做完配套练习rustlings
-* [·] 阅读examples，看懂代码逻辑和解释
-* [.] 阅读cwe_checker的源代码
+* [ ] 阅读the book
+* [x] 做完配套练习rustlings
+* [ ] 阅读rust语言圣经
+* [ ] 做配套练习rust语言实战
+* [ ] 阅读cwe_checker的源代码
 
 [^fp]: https://zh.wikipedia.org/wiki/函数式编程
 [^mermaid]: https://mermaid-js.github.io/mermaid/
