@@ -73,5 +73,7 @@ gantt
 * [ ] 阅读rust语言圣经
 * [ ] 做配套练习rust语言实战
 
+## 扩展阅读
+
 [^fp]: https://zh.wikipedia.org/wiki/函数式编程
 [^mermaid]: https://mermaid-js.github.io/mermaid/

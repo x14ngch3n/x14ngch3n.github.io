@@ -59,6 +59,8 @@ make test
 * 适配其他的二进制文件格式，比如RTOS
 * 提高运行速度
 
+## 扩展阅读
+
 [^fact]: https://github.com/fkie-cad/FACT_core
 [^embark]: https://github.com/e-m-b-a/EMBArk
 [^nazz]: https://github.com/borzacchiello/naaz
