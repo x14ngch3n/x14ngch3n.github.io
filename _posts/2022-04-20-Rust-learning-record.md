@@ -21,6 +21,7 @@ mermaid: true
 * 书籍：
   * [The Rust Programming Language(the book)](https://github.com/rust-lang/book)：Rust官方书籍
   * [Rust语言圣经](https://course.rs)：Rust中文学习教程
+  * [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)：collection of simple Rust examples
   * [Rusty Book](https://rusty.rs/about.html)：Awesome Rust + Rust Cookbook
   * [Rust编程之道](https://docs.rs/tao-of-rust/1.0.1/tao_of_rust/)：张汉东著
   * [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/index.html)：宏小册
@@ -42,10 +43,14 @@ mermaid: true
 
 * 公众号：
   * 2121实验空间
+  * 觉学社
 
 * 数据库：
   * [crates.io](https://crates.io)：The Rust community’s crate registry
   * [RustSec](https://rustsec.org/advisories/)：The Rust Security Advisory Database
+
+* 论文：
+  * [Learning and Programming Challenges of Rust: A Mixed-Methods Study](https://songlh.github.io/paper/survey.pdf)
 
 ## Rust学习计划
 
@@ -55,17 +60,18 @@ mermaid: true
 gantt
   title  Rust学习进度
   dateFormat YYYY-MM-DD
-  阅读the book: active, p1, 2022-04-18, 7d
-  练习rustlings: active, p2, 2022-04-18, 6d
-  阅读rust语言圣经: p3, after p1, 7d
-  安装cwe_checker: , 2022-04-20, 1d
+  阅读the book: active, thebook, 2022-04-18, 12d
+  练习rustlings: rustlings, 2022-04-18, 6d
+  做CS110L: cs110l, 2022-04-28, 7d
+  学习cwe_checker: active, cwe, 2022-04-20, 15d
 ```
 
 * [ ] 阅读the book
 * [x] 做完配套练习rustlings
+* [ ] 阅读cwe_checker的源代码
+* [ ] CS110L Labs
 * [ ] 阅读rust语言圣经
 * [ ] 做配套练习rust语言实战
-* [ ] 阅读cwe_checker的源代码
 
 [^fp]: https://zh.wikipedia.org/wiki/函数式编程
 [^mermaid]: https://mermaid-js.github.io/mermaid/
