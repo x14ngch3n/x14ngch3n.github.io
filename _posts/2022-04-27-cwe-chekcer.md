@@ -57,7 +57,7 @@ make test
 * 参考nazz[^nazz]，添加PCode符号执行引擎，减少误报
 * 添加其他CWE/安全编码规则(MISRA[^misra])，减少漏报
 * 适配其他的二进制文件格式，比如RTOS
-* 提高运行速度
+* 提高运行速度，参考星澜科技的BinCraft[^bincraft]项目合集
 
 ## 扩展阅读
 
@@ -66,3 +66,4 @@ make test
 [^nazz]: https://github.com/borzacchiello/naaz
 [^misra]: https://www.misra.org.uk
 [^juliet]: https://samate.nist.gov/SRD/testsuite.php
+[^bincraft]: https://github.com/StarCrossPortal/bincraft
