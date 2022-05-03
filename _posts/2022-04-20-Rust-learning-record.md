@@ -66,8 +66,8 @@ gantt
   学习cwe_checker: active, cwe, 2022-04-20, 15d
 ```
 
-* [ ] 阅读the book
-* [x] 做完配套练习rustlings
+* [x] 阅读the book：没有看Chap19，很多概念还是不清楚，尤其是所有权和多线程，写起来还是有点吃力
+* [x] 做完配套练习rustlings：靠着编译器警告，连蒙带猜地做完了
 * [ ] 阅读cwe_checker的源代码
 * [ ] CS110L Labs
 * [ ] 阅读rust语言圣经
