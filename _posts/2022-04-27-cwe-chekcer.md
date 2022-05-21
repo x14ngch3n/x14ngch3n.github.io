@@ -41,7 +41,7 @@ EMBArk的核心分析功能由emba提供。emba是一个纯shell脚本写成的�
 
 ## 功能分析
 
-批量测试作者提供的[CWE测试集]()，也可以试试Juliet[^juliet]给出的CWE测试集。首先是需要构建编译二进制数据集需要的Docker镜像，再通过SCons这个构建工具得到各种编译器生成，各种架构下，各位CWE的二进制文件，命令如下：
+批量测试作者提供的[CWE测试集](https://github.com/fkie-cad/cwe_checker/tree/master/test)，也可以试试Juliet[^juliet]给出的CWE测试集。首先是需要构建编译二进制数据集需要的Docker镜像，再通过SCons这个构建工具得到各种编译器生成，各种架构下，各位CWE的二进制文件，命令如下：
 
 ```bash
 make compile_test_files

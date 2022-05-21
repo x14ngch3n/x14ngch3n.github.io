@@ -68,8 +68,8 @@ gantt
 
 * [x] 阅读the book：没有看Chap19，很多概念还是不清楚，尤其是所有权和多线程，写起来还是有点吃力
 * [x] 做完配套练习rustlings：靠着编译器警告，连蒙带猜地做完了
+* [x] CS110L Labs: 积累了一些Rust开发的经验，学习了并发的知识
 * [ ] 阅读cwe_checker的源代码
-* [ ] CS110L Labs
 * [ ] 阅读rust语言圣经
 * [ ] 做配套练习rust语言实战
 

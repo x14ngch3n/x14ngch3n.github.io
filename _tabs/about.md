@@ -16,6 +16,10 @@ I made this website as the following reasons:
 * I'm interseted at **Reverse Engineering** and **Program Analysis**.
 * I have a poor computer science foundation, and want to **PUSH** myself.
 
+## Resume
+
+I host my resume on [**Reactive Resume**](https://rxresu.me/cascades/resume-en)
+
 ## Want more info
 
 Just solve a simple RSA[^1] problem and you will get my qq number.
