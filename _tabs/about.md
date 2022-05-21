@@ -18,7 +18,7 @@ I made this website as the following reasons:
 
 ## Resume
 
-I host my resume on [**Reactive Resume**](https://rxresu.me/cascades/resume-en)
+I host my resume on [**Reactive Resume**](https://rxresu.me/cascades/resume-en).
 
 ## Want more info
 
