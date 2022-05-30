@@ -20,7 +20,7 @@ tags: [git, excel]
 
 Git仓库的备份服务器也需要仔细考虑。一是避免Github这样可能需要科学上网的服务器，二是减少账号注册等过程，三是可能需要提高仓库的保密性。可以通过Gitee+token+private的组合来完成。我选择自己尝试搭建一个服务器，也是增加运维经验。
 
-此外，当Excel文件较大时，由于Git需要对每次commit都备份，可能会导致仓库尺寸过大。这时候也许需要使用[git-lfs](https://github.com/xlwings/git-xl)来缓存一些大的二进制文件，并延迟加载不同版本的二进制文件，具体原理可以看[^git-lfs]。
+此外，当Excel文件较大时，由于Git需要对每次commit都备份，可能会导致仓库尺寸过大。这时候也许需要使用[git-lfs](https://github.com/git-lfs/git-lfs)来缓存一些大的二进制文件，并延迟加载不同版本的二进制文件，具体原理可以看[^git-lfs]。
 
 ## 工具
 
