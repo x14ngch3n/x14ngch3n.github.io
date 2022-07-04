@@ -22,7 +22,7 @@ order: 4
 
 ## 更多信息
 
-你只需要解答一个简单的 RSA[^1] 破解的问题，就可以得到我的 qq 号啦
+你只需要破解一个简单的 RSA[^1] 问题，就可以得到我的 qq 号啦
 
 ```python
 from Crypto.Util.number import *
