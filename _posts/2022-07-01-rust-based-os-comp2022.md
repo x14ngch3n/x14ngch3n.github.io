@@ -77,9 +77,9 @@ tags: [self-learning, rust]
 
 - step 0 要求的[Rust-lang Lab Test based on Rustlings（采用Github Classroom模式的Rustling小练习）](https://classroom.github.com/a/YTNg1dEH) 的完成情况 (成绩分数：15%)
 
-- step 2 [第一阶段OS学习的5个实验](https://github.com/LearningOS/rust-based-os-comp2022#kernel-labs)的完成情况 (成绩分数：50%)
+- step 2 [第一阶段OS学习的5个实验](https://github.com/LearningOS/rust-based-os-comp2022#kernel-labs)的完成情况 (成绩分数：50%)，详情看课程网站[^website]
 
-打算跟着[张汉东老师的视频](https://space.bilibili.com/24917186/video)复习吧，当作是增加理解了
+Rust 部分打算跟着[张汉东老师的视频](https://space.bilibili.com/24917186/video)复习吧，当作是增加理解了
 
 ## 7.5 Day5
 
@@ -98,3 +98,4 @@ tags: [self-learning, rust]
 ## 课程资料
 
 [^schedule]: https://github.com/LearningOS/rust-based-os-comp2022/blob/main/scheduling.md
+[^website]: https://learningos.github.io/rust-based-os-comp2022/
