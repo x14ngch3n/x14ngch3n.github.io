@@ -79,9 +79,17 @@ tags: [self-learning, rust]
 
 - step 2 [第一阶段OS学习的5个实验](https://github.com/LearningOS/rust-based-os-comp2022#kernel-labs)的完成情况 (成绩分数：50%)
 
-打算跟着[张汉东老师的课程](https://space.bilibili.com/24917186/video)复习吧，当作是增加理解了
+打算跟着[张汉东老师的视频](https://space.bilibili.com/24917186/video)复习吧，当作是增加理解了
 
 ## 7.5 Day5
+
+在 codespace 上搭建了 rustlings 的练习环境，跟着张老师的视频。因为之前做过 rustlings 了，所以感觉视频有些无聊，于是便开始自己先按照节奏把前面简单的部分做完了。但张老师的思路是对的，做这样的练习不在于做的多快多正确，而是要理解题目背后的逻辑。之后有时间也可以看看 rustlings 本身的代码。
+
+今天开会后加了老师，助教和一些营员的微信，准备和 [ShiLi](shili2017.github.io) 同学组个队。此外，还加了几个飞书的群聊，多接受一些 Rust 资讯吧。
+
+## 7.6 Day6
+
+今天做完了 rustlings 剩下的部分，和第一次做的时候相比来说更加多了些经验，也在不断学习官方的一些写法，重构之前的练习代码，比如 match arm 的妙用。同时，也增加了对于错误处理和类型转换两个主题的理解（之前做的时候可能没仔细看）。本质上说，都是实现 trait，不过是根据 Rust 一些规定的要求来实现 trait，从而能够使用一些内置的函数（比如 `from` 和 `parse`）。在实现 trait 的过程中，我对于编译器报错的阅读能力也增加了。
 
 ## 课程资料
 
