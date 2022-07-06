@@ -91,6 +91,10 @@ tags: [self-learning, rust]
 
 今天做完了 rustlings 剩下的部分，和第一次做的时候相比来说更加多了些经验，也在不断学习官方的一些写法，重构之前的练习代码，比如 match arm 的妙用。同时，也增加了对于错误处理和类型转换两个主题的理解（之前做的时候可能没仔细看）。本质上说，都是实现 trait，不过是根据 Rust 一些规定的要求来实现 trait，从而能够使用一些内置的函数（比如 `from` 和 `parse`）。在实现 trait 的过程中，我对于编译器报错的阅读能力也增加了。
 
+完结证明（顺便吐槽一下 auto-grading 的问题，只有0/100两种分数）：
+
+![](https://s2.loli.net/2022/07/06/XiYpdvnoQTEAmUR.png)
+
 ## 课程资料
 
 [^schedule]: https://github.com/LearningOS/rust-based-os-comp2022/blob/main/scheduling.md
