@@ -128,7 +128,10 @@ Rust 部分打算跟着[张汉东老师的视频](https://space.bilibili.com/249
 
 今天还开始了第二章的学习，看到了应用程序是如何使用 `ecall` 指令来陷入到 S 模式进行系统调用，用户库又是如何封装出类 Linux 的系统调用的，随后还使用 `qemu-riscv64` 进行了实践。还有一个有意思的是，之前买的 k210 开发板，今天到货了。可以直接上电把 rCore 前几个不需要文件系统的 lab 跑起来，等之后有 sd 卡后还可以试试完整版的 rCore。
 
+但值得注意的一点是，我是跟着 rCore 的文档看的，所以需要注意和训练营的 lab 之间的差距。此外，之后看书看累的时候也可以考虑把课堂视频[^video]看看，感觉更容易集中注意力。
+
 ## 课程资料
 
 [^schedule]: https://github.com/LearningOS/rust-based-os-comp2022/blob/main/scheduling.md
+[^video]: https://github.com/LearningOS/rust-based-os-comp2022/blob/main/relatedinfo.md
 [^website]: https://learningos.github.io/rust-based-os-comp2022/
