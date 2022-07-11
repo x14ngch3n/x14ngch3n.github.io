@@ -142,6 +142,8 @@ Rust 部分打算跟着[张汉东老师的视频](https://space.bilibili.com/249
 
 课后习题一中有一个 [bug](https://github.com/rcore-os/rcore-tutorial-book-v3/issues/116) 会造成很严重的死循环，大概是由于只有 Rust 代码内部设置了 fp ，而汇编代码没有注意到，所以保存的实际是用户态进行系统调用之前的 fp ，从而导致产生访问非法地址的异常，从而循环调用 panic 中的栈回溯代码。解决的思路：要么就是调整循环结束的标志为用户态 fp 的值，要么就增加对 Exception(LoadFault) 的处理代码。总而言之，手动写汇编时一定要小心。
 
+今天还重新看了看 Makefile 中的命令参数，了解了 `tmux` 和 `qemu-system` 的一些命令参数。此外，还重新复习了用户态程序和内核态程序的链接过程，复习了链接器脚本的语法。
+
 ## 课程资料
 
 [^schedule]: https://github.com/LearningOS/rust-based-os-comp2022/blob/main/scheduling.md
