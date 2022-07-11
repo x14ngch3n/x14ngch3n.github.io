@@ -130,6 +130,18 @@ Rust 部分打算跟着[张汉东老师的视频](https://space.bilibili.com/249
 
 但值得注意的一点是，我是跟着 rCore 的文档看的，所以需要注意和训练营的 lab 之间的差距。此外，之后看书看累的时候也可以考虑把课堂视频[^video]看看，感觉更容易集中注意力。
 
+## 7.10 Day10
+
+今天把 RISCV 的特权级相关资料初步看了一下，主要是一个[大会的视频](https://www.youtube.com/watch?v=m8DqCTogb8w&t=1725s)和 [RISC-V手册：一本开源指令集的指南](http://riscvbook.com/chinese/RISC-V-Reader-Chinese-v2p1.pdf)的第十章。但可能自己对于 Architecture 的基础太弱了，导致看起来很费劲。所以还是接着看文档了，这样能更快地熟悉几个重要的 CSR 寄存器。
+
+## 7.11 Day11
+
+今天把第二章的内容都看完了，并做了课后习题。感觉增加了用户态的支持后，第二章的内容复杂了许多。在学习了其采用静态绑定+动态加载的思路后，还深入理解了系统调用的实现以及上下文保存和恢复中需要注意的顺序问题。
+
+其实以 `print!` 和 `println!` 这两个宏为例，不论是系统调用还是请求 RustSBI 的服务，它们的逻辑都是类似的。只不过，之前我们把 RustSBI 当作黑盒，但现在需要理解是如何系统软硬件来达到特权级别的切换，并分发异常的。总结下来，在编写和用户态的接口时，一定要弄清楚代码此刻处于什么特权模式，以及目前的栈布局。此外，利用 `sscratch` 进行内核栈和用户栈的切换，以及复用 `__restore` 来实现用户程序初始化这些操作都很精妙，值得细细评味。
+
+课后习题一中有一个 [bug](https://github.com/rcore-os/rcore-tutorial-book-v3/issues/116) 会造成很严重的死循环，大概是由于只有 Rust 代码内部设置了 fp ，而汇编代码没有注意到，所以保存的实际是用户态进行系统调用之前的 fp ，从而导致产生访问非法地址的异常，从而循环调用 panic 中的栈回溯代码。解决的思路：要么就是调整循环结束的标志为用户态 fp 的值，要么就增加对 Exception(LoadFault) 的处理代码。总而言之，手动写汇编时一定要小心。
+
 ## 课程资料
 
 [^schedule]: https://github.com/LearningOS/rust-based-os-comp2022/blob/main/scheduling.md
