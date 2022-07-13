@@ -41,3 +41,4 @@ tags: [self-learning]
 | KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs | OSDI            | 2008 | |
 | Arbiter: Bridging the Static and Dynamic Divide in Vulnerability Discovery on Binary Programs | Usenix Security | 2022 | |
 | All You Ever Wanted to Know About Dynamic Taint Analysis and Forward Symbolic Execution       | IEEE S&P        | 2010 | |
+| Program Vulnerability Repair via Inductive Inference                                          | ISSTA           | 2022 | |
