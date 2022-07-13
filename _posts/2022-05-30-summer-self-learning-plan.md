@@ -23,7 +23,7 @@ tags: [self-learning]
 
 从进入石楠花到现在，从简单的校赛到DEFCON Quals各种难度的比赛都算是见过了。目前自己的情况属于各种方向都了解一点，但都只能做简单的题目。嘴上虽然说自己是binary选手，但比赛中几乎没做出过re/pwn的题目。
 
-如果只是把CTF当作兴趣，这样的状态倒也还好。但如果想打出成绩，真正体会到CTF大手子的乐趣，还是要专精于一个方向。结合我的研究方向，还是选择研究二进制方向的题目吧。首先还是复习一下各个架构的指令集（x86，ARM，MIPS，RISC-V），然后可以熟悉熟悉各类自动化漏洞挖掘工具（angr，z3）和逆向分析工具（Ghidra），最后就是看看有没有自己感兴趣的方向可以钻研一下（IoT，WebAssembly，MacOS，LLVM）。目前打算进行自学的内容：
+如果只是把CTF当作兴趣，这样的状态倒也还好。但如果想打出成绩，真正体会到CTF大手子的乐趣，还是要专精于一个方向。结合我的研究方向，还是选择研究二进制方向的题目吧。首先还是复习一下各个架构的指令集（x86，ARM，MIPS，RISC-V），然后可以熟悉熟悉各类自动化漏洞挖掘工具（angr，z3）和逆向分析工具（Ghidra），最后就是看看有没有自己感兴趣的方向可以钻研一下，主要还是二进制的程序分析吧（IoT，WebAssembly，MacOS，LLVM）。目前打算进行自学的内容：
 
 | 资源                     | 博客  | 时间  |
 | ---------------------- | --- | --- |
@@ -36,7 +36,8 @@ tags: [self-learning]
 
 先从二进制分析的经典论文看起来吧，了解一下这个领域发展的来龙去脉。目前打算阅读的论文列表:
 
-| 名称                                                                                            | 会议              | 年份   |
-| --------------------------------------------------------------------------------------------- | --------------- | ---- |
-| Arbiter: Bridging the Static and Dynamic Divide in Vulnerability Discovery on Binary Programs | Usenix Security | 2022 |
-| All You Ever Wanted to Know About Dynamic Taint Analysis and Forward Symbolic Execution       | IEEE S&P        | 2010 |
+| 名称                                                                                           | 会议              | 年份   | 博客 |
+| --------------------------------------------------------------------------------------------- | --------------- | ---- | ---- |
+| KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs | OSDI            | 2008 | |
+| Arbiter: Bridging the Static and Dynamic Divide in Vulnerability Discovery on Binary Programs | Usenix Security | 2022 | |
+| All You Ever Wanted to Know About Dynamic Taint Analysis and Forward Symbolic Execution       | IEEE S&P        | 2010 | |
