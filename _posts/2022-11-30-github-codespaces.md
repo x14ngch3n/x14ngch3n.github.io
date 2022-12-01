@@ -1,6 +1,7 @@
 ---
 title: GitHub Codespaces 使用体验
-category: [misc]
+category: [Misc, GitHub]
+tags: [development]
 ---
 
 > 最近看到 GitHub主页又打出了 Codespaces 的广告，就想着来试试，看看和之前的 github.dev 相比有什么进步，是不是真的能用到日常的开发环境当中

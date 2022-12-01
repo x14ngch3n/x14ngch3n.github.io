@@ -1,6 +1,6 @@
 ---
-title: 使用Git来管理Microsoft Excel
-category: [misc, git]
+title: 使用 Git 来管理 Microsoft Excel
+category: [Misc, Git]
 tags: [git, excel]
 ---
 

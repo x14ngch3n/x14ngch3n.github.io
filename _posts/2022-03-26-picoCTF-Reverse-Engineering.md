@@ -1,6 +1,6 @@
 ---
 title: picoCTF writeup for RE
-category: [writeup, OJ] 
+category: [Writeup, OJ] 
 tags: [reverse]
 ---
 

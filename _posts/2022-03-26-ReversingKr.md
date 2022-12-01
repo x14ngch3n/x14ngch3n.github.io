@@ -1,6 +1,6 @@
 ---
 title: Reversing.Kr writeup
-category: [writeup, OJ]
+category: [Writeup, OJ]
 tags: [reverse]
 ---
 

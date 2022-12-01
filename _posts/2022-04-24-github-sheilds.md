@@ -1,6 +1,6 @@
 ---
 title: Github中的那些徽章到底是什么意思
-category: [misc, visualization]
+category: [Misc, GitHub]
 tags: [development]
 ---
 

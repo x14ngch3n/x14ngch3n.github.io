@@ -1,6 +1,6 @@
 ---
 title: GeekGame 1st writeup
-category: [writeup, OJ]
+category: [Writeup, OJ]
 tags: [reverse, pwn, crypto, misc]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 二进制漏洞检测工具 cwe_checker 学习
-category: [tool, Rust]
+category: [Tool, Rust]
 tags: [binary analysis, rtfsc]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Hackergame 2021 writeup
-category: [writeup, OJ]
+category: [Writeup, OJ]
 tags: [reverse, pwn, crypto, misc]
 ---
 

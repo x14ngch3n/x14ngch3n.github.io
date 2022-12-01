@@ -1,7 +1,7 @@
 ---
 title: 2022年开源操作系统训练营学习笔记
-category: [course, website]
-tags: [self-learning, rust]
+category: [Course, Website]
+tags: [rust]
 ---
 
 > 之前一直就想完完整整地做一次操作系统的Lab，但值得学习的课程资料实在是太多了，经典的xv6，modern的OSTEP，包括IPADS的ChCore...不过借着清华这样一次开源操作系统训练营的机会，就从rCore开始吧，这篇博客用来记录我在训练营中的笔记

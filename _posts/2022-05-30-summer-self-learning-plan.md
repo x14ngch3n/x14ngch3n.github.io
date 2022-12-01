@@ -1,7 +1,7 @@
 ---
 title: 2022暑期自学计划
-category: [misc, self-learning]
-tags: [self-learning]
+category: [Misc, Plan]
+tags: [plan]
 ---
 
 > 勿在浮沙筑高台，想做出好的研究，提高CTF比赛的水平，还是要打好计算机基础

@@ -1,5 +1,5 @@
 ---
 title: The Cherno C++
-category: [course, youtube]
+category: [Course, Youtube]
 tags: [c/c++]
 ---
