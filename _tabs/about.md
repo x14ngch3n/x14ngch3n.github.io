@@ -19,6 +19,10 @@ order: 5
 
 I host my resume on [Reactive Resume](https://rxresu.me/cascades/resume-en), which supports continuous update & publish.
 
+## Blog
+
+I write blogs about scientific research and computer security skills, which is hosted on [GitHub Pages](https://github.com/cascades-sjtu/cascades-sjtu.github.io).
+
 ## Want more info
 
 Just solve a simple RSA[^1] problem and you will get my qq number!
