@@ -14,10 +14,12 @@ tags: [self-learning]
 | -------------------------- | -------- | -------------------------------------------------------- | --------------------- |
 | [CS61A](https://cs61a.org) | UCB      | `./2022-05-30-summer-self-learning-plan.md`{: .filepath} | 2022.05.21-2022.07.08 |
 | [rCore](https://learningos.github.io/rust-based-os-comp2022/) | Tsinghua      | `./2022-07-01-rust-based-os-comp2022.md`{: .filepath} | 2022.07.01-2022.07.30 |
-| CSAPP                      | CMU      |                                                          | 2022.06.09-2022.06.30 |
+| [CSAPP](https://github.com/cascades-sjtu/CS-APP)                      | CMU      |                                                          | 2022.06.09-2022.06.30 |
 | CS106B/X/L                 | Stanford |                                                          | 2022.07.01-2022.08.01 |
 | 6.S081                     | MIT      |                                                          | 2022.08.01-2022.09.01 |
 | CS143                      | Stanford |                                                          | 2022.08.01-2022.09.01 |
+
+预计还想学习 CS161，MIT 6.858 和 Seed-labs 这样的计算机安全课程
 
 ## CTF
 
@@ -42,3 +44,9 @@ tags: [self-learning]
 | Arbiter: Bridging the Static and Dynamic Divide in Vulnerability Discovery on Binary Programs | Usenix Security | 2022 | |
 | All You Ever Wanted to Know About Dynamic Taint Analysis and Forward Symbolic Execution       | IEEE S&P        | 2010 | |
 | Program Vulnerability Repair via Inductive Inference                                          | ISSTA           | 2022 | |
+
+## 简单总结
+
+因为暑假的安排有变动，以上的自学计划（包括本博客）几乎完全烂尾了 😭
+
+归根结底还是自己不够自律，自学的驱动力不够，详细原因我会在博客主页新增一个栏目 `weekly` 来总结，之后也会将定期的总结写到该栏目中。

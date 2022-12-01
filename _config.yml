@@ -21,7 +21,7 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Cascades                          # the main title
+title: cascades-sjtu                          # the main title
 
 tagline: Curiosity kills the boredom   # it will display as the sub-title
 
