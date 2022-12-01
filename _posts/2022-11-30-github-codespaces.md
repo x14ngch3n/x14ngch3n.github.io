@@ -5,11 +5,11 @@ category: [misc]
 
 > 最近看到 GitHub主页又打出了 Codespaces 的广告，就想着来试试，看看和之前的 github.dev 相比有什么进步，是不是真的能用到日常的开发环境当中
 
-随着云计算越来越火，**云开发**的概念也逐渐进入到开发者的视野中。从目前的发展来看，基于浏览器的云 IDE 是一个不错的解决方案，它甚至可以让你在 iPad 中连接到开发环境。GitHub 作为最大的开源社区，又加上有微软的算力加持，自然也不会落下这一趋势。如果能够直接将 repository 的某个 commit 绑定到某个开发环境（具体来说应该是一个容器），并使用浏览器就可以编写、部署代码，可以免去传统开发流程中的不少麻烦，甚至提供了一种全新的开发思路。而这，便是 [GitHub Codespaces](https://docs.github.com/en/codespaces/overview) 提供的功能。
+随着云计算越来越火，**云开发**的概念也逐渐进入到开发者的视野中。从目前的发展来看，基于浏览器的云 IDE 是一个不错的解决方案，它甚至可以让你在 iPad 中连接到开发环境。GitHub 作为最大的开源社区，又加上有微软的算力加持，自然也不会落下这一趋势。如果能够直接将 repository 的某个 commit 绑定到某个开发环境（具体来说是一个容器），并使用浏览器就可以编写、部署代码，可以免去传统开发流程中的不少麻烦，甚至提供了一种全新的开发思路。而这，便是 [GitHub Codespaces](https://docs.github.com/en/codespaces/overview) 提供的功能。
 
 ## 基本使用
 
-如果你使用过云服务器，那么可以无缝对接到 GitHub Codespaces 的使用，具体的使用可以看 [quickstart](https://docs.github.com/en/codespaces/getting-started/quickstart)。需要注意的亮点是：
+如果你使用过云服务器，那么可以无缝对接到 GitHub Codespaces 的使用，具体的使用可以看 [quickstart](https://docs.github.com/en/codespaces/getting-started/quickstart)。需要注意的两点是：
 
 1. 可以直接用第三方的 repo 创建 Codespace，然后再选择是否创建自己的 repo，并将改动 push 到自己的 repo
 2. 新创建的 Codespace 默认使用了你 VS Code 账号中设置了**同步**的插件，对于插件较多的小伙伴来说可能启动有些慢
