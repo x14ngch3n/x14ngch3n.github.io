@@ -35,11 +35,15 @@ GitHub 官方已经提供的一些开发框架的模板，对于前端和人工�
 
 ![official template](https://tva1.sinaimg.cn/large/008vxvgGgy1h8od7yphb6j31rm0u0dka.jpg)
 
-GitHub 官方也演示了如何使用预定义的模板[为自己的项目定制 Codespace 环境](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/setting-up-your-project-for-codespaces)。其本质上是对 Dockerfile 的一层封装，加上了对于 VS Code 的一些配置选项。值得注意的是，可以在修改 `devcontainer.json` 之后 `rebuild`，保证项目运行的环境一致。
+GitHub 官方也演示了如何使用预定义的模板[为自己的项目定制 Codespace 环境](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/setting-up-your-project-for-codespaces)。其本质上是对 Dockerfile 的一层封装，加上了对于 VS Code 的一些配置选项。配置文件中一些常用字段的用法见文档[^jsondoc]。
 
-除了上面的模板之外，其实微软官方在 VS Code 的插件中提供了针对更多语言的模板[^template]。在插件中搜索 `Codespaces: Add Dev Container Configuration Files...` 就可以使用模板，并添加到当前仓库的 `.devcontainer` 目录下，然后可以根据自己的需求再修改，再使用 `Codespaces: Rebuild Container` 重新构建当前的容器即可。
+除了上面的模板之外，其实微软官方在 VS Code 的插件中提供了针对更多语言的模板[^template]。在插件中搜索 `Codespaces: Add Dev Container Configuration Files...` 就可以使用模板，并添加到当前仓库的 `.devcontainer` 目录下。然后，可以根据自己的需求再修改字段内容，比如使用 `features`[^features]。最后，使用 `Codespaces: Rebuild Container` 重新构建当前的容器即可。
 
 还有些更高级的操作，比如使用 [prebuilds](https://docs.github.com/en/codespaces/prebuilding-your-codespaces/about-github-codespaces-prebuilds) 来加速构建 Codespace 和使用 [template repo](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/setting-up-a-template-repository-for-github-codespaces) 来为其他人提供 Codespace 模板，我就先不玩了～
+
+### 一个简单的 devcontainer.json 实例
+
+对于常见的 Linux 下开发环境的搭建，我在 Ubuntu 的最小化实例上进行了简单的定制，配置文件见：<https://gist.github.com/cascades-sjtu/065ae8723702318b48f303e6e595c402>
 
 ## 原理
 
@@ -63,6 +67,8 @@ GitHub 官方也演示了如何使用预定义的模板[为自己的项目定制
 
 [^default]: https://github.com/microsoft/vscode-dev-containers/tree/main/containers/codespaces-linux
 [^devcontainer]: https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers
+[^jsondoc]: https://containers.dev/implementors/json_reference/
 [^template]: https://github.com/microsoft/vscode-dev-containers
+[^features]: https://github.com/devcontainers/features
 [^deepdive]: https://docs.github.com/en/codespaces/getting-started/deep-dive
 [^billing]: https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces
