@@ -1,7 +1,7 @@
 ---
 title: Translating C to Safer Rust
-category: [Paper, PL]
-tags: [program analysis]
+category: [Research, PL]
+tags: [program analysis, paper reading]
 ---
 
 > GoSSIP推荐的来自程序语言领域subtitle: ACM OOPSLA 21的论文，讲述了C2Rust生成的带有unsafe标签的rust代码存在的安全问题，以及对其中raw pointer这一问题的解决方法。感觉rust是一门在程序分析和软件安全方面有发展前景的语言，趁着这个机会可以好好学一下rust，了解更多关于软件安全的概念。
