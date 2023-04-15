@@ -1,6 +1,6 @@
 ---
 title: 2023 暑期实习投递/面试记录
-category: [Misc]
+category: [Misc, Internship]
 tags: [program analysis, c/c++]
 ---
 

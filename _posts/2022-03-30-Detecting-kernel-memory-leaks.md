@@ -1,7 +1,7 @@
 ---
 title: Detecting Kernel Memory Leaks in Specialized Modules With Ownership Reasoning
-category: [Research, Security]
-tags: [kernel, program analysis, paper reading]
+category: [Research, System Security]
+tags: [OS kernel, program analysis, paper reading]
 ---
 
 > NIS-8018《系统安全前沿技术》的论文阅读作业，选取了漏洞检测领域的论文，了解一下Kernel的漏洞检测。作者实现了K-MELD的原型，使用了所有权（Ownership）机制对内核特定模块的内存泄漏进行了检测。作者在Linux内核中发现了218个bug，其中41个为CVE。

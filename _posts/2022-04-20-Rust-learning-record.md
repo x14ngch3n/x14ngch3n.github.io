@@ -1,6 +1,6 @@
 ---
 title: Learning The Rust Programming Language
-category: [Course, Website]
+category: [Misc, Learning]
 tags: [rust]
 mermaid: true
 ---

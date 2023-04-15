@@ -1,7 +1,7 @@
 ---
 title: 二进制漏洞检测工具 cwe_checker 学习
-category: [Tool, Rust]
-tags: [binary analysis, rtfsc]
+category: [Misc, Learning]
+tags: [program analysis, binary security]
 ---
 
 > cwe_checker是一个Rust编写的，利用Ghidra反汇编出的PCode，对ELF二进制文件进行程序分析的工具，目前已覆盖十余种CWE规则的检测。

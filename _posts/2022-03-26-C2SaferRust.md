@@ -1,6 +1,6 @@
 ---
 title: Translating C to Safer Rust
-category: [Research, PL]
+category: [Research, Programming Language]
 tags: [program analysis, paper reading]
 ---
 

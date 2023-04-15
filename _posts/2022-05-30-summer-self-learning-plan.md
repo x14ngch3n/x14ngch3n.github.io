@@ -1,6 +1,6 @@
 ---
 title: 2022暑期自学计划
-category: [Misc, Plan]
+category: [Misc, Learning]
 tags: [plan]
 ---
 
