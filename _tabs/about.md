@@ -13,7 +13,7 @@ order: 5
 * I'm studying for a [cyber security](https://infosec.sjtu.edu.cn/index.aspx) master degree at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn)
 * I'm a novice CTF player at [Ph0t1n1a](https://ctftime.org/team/55197/), which is the junior team of [0ops](https://ctftime.org/team/4419)
 * I'm interseted in [Software Reverse Engineering](https://en.wikipedia.org/wiki/Reverse_engineering#Software) and [Static Program Analysis](https://en.wikipedia.org/wiki/Program_analysis#Static_program_analysis)
-* I have a poor computer science foundation, and want to **PUSH** myself
+* I attach great importance to computer science foundation and love to learn from toy projects
 
 ## Resume
 
@@ -40,4 +40,4 @@ assert n == 6303039709899593443
 assert enc == 2865907171382757979
 ```
 
-[^1]: https://ctf-wiki.org/crypto/asymmetric/rsa/rsa_module_attack/
+[^1]: <https://ctf-wiki.org/crypto/asymmetric/rsa/rsa_module_attack/>
