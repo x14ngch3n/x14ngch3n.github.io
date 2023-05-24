@@ -42,7 +42,7 @@ SynthDB 使用了混合符号执行的方法，其整体架构如下图所示。
 
 随后，作者评估了使用 SynthDB 辅助漏洞扫描器 BurpSuite 进行安全测试的表现。作者用 BS 的自动测试模式对包含历史 CVE 的项目进行了测试并自动生成 payload。 如上图所示，在 SynthDB 合成的数据库的辅助下，能够达到最好的漏洞复现和挖掘新漏洞的效果。
 
-![image-20230524170444567](C:\Users\10152\AppData\Roaming\Typora\typora-user-images\image-20230524170444567.png)
+![image-20230524170444567](https://s2.loli.net/2023/05/24/fEkMrFSCsp7QidK.png)
 
 最后，作者还给出了 SynthDB 在先前的 Fuzzing 工作（Wfuzz 和 webFuzz）上的表现，主要体现为提高覆盖率。
 
