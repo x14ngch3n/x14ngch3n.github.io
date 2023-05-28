@@ -34,6 +34,10 @@ Tamarin 还是用了统一的威胁建模方法，即 Dolev Yao intruder 模型�
 
 ![Time cost for Tamarin to produce the attack traces for the discovering individual attacks in the vulnerable model](https://s2.loli.net/2023/05/21/dVgYuNJEjvFHyT8.png)
 
+值得注意的是，在 Usenix Security 23 的录用论文中，也出现了 3 篇类似的形式化方法的文章，且其中有一篇就是针对了另一种蓝牙协议的配对方式。
+
+![](https://s2.loli.net/2023/05/28/sL1cXdg8BCGHmIi.png)
+
 最后码一个作者张悦老师的招生信息：<https://mp.weixin.qq.com/s/D44OYealPmQ2QG9UEvai0Q>
 
 ## 参考链接
