@@ -4,37 +4,49 @@
     </title>
     <link rel="stylesheet" href="https://latex.now.sh/style.min.css" />
     <style>
-        h2 {
-            text-align: center;
+        p {
+            font-size: large;
         }
     </style>
 </head>
 
 
-<body class>
-    <center>
-        <header>
-            <h1>Xiang Chen</h1>
-        </header>
-        <div class="abstract">
-            <h2>About Me</h2>
-            <p>I'm a Master student at Shanghai Jiao Tong University, expected to be a PhD at HKUST in 2024 Fall.</p>
-        </div>
-        <h2>Publications</h2>
-        <h2>Education Experience</h2>
-        <h2>Industrial Experience</h2>
-        <h2>Teaching Experience</h2>
-        <h2>Technical Blogs</h2>
-        <h2>Awards</h2>
-        See
-        <a href="https://cascades-sjtu.github.io/archives">my blogs.
+<body id="top" class>
+    <header>
+        <h1>Xiang Chen</h1>
+    </header>
+    <h2>About Me</h2>
+    <hr>
+    <p>I'm now a Master student at <a href="https://www.sjtu.edu.cn">SJTU</a>, expected to join the <a
+            href="http://cybersecurity.cse.ust.hk">Cybersecurity Lab</a> at HKUST in 2024 Fall as a <b>PhD student</b>.
+        My research mainly focus on Static Program Analysis.
+    </p>
+    <h2>Publications</h2>
+    <hr>
+    <h2>Education Experience</h2>
+    <hr>
+    <h2>Industrial Experience</h2>
+    <hr>
+    <h2>Teaching Experience</h2>
+    <hr>
+    <h2>Technical Blogs</h2>
+    <hr>
+    <p>
+        I write some my research experiences on
+        <a href="https://cascades-sjtu.github.io/archives">blogs.
         </a>
+    </p>
+    <h2>Awards</h2>
+    <hr>
+    <center>
+        <a href="#top">[Back to Top]</a> |
+        <u id="dark-mode-toggle">[Toggle Dark]</u>
     </center>
+    <script>
+        document
+            .querySelector("#dark-mode-toggle")
+            .addEventListener('click', () => {
+                document.body.classList.toggle("latex-dark");
+            });
+    </script>
 </body>
-<script>
-    document
-        .querySelector("#dark-mode-toggle")
-        .addEventListener('click', () => {
-            document.body.classList.toggle("latex-dark");
-        });
-</script>
