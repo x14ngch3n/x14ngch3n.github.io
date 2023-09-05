@@ -15,7 +15,7 @@ date: 09/05/2023
 
 I am now a Master student at [SJTU](ttps://www.sjtu.edu.cn), expected to join [Charles Zhang](https://cse.hkust.edu.hk/~charlesz)'s research group at HKUST in 2024 Fall as a PhD student. My research interest mainly focus on Software Security and Static Program Analysis.
 
-[CV](https://rxresu.me/cascades/curriculum-vitae) | cascades@sjtu.edu.cn | sjtu.xiangchen@gmail.com
+[CV](https://rxresu.me/cascades/curriculum-vitae) | Email: cascades@sjtu.edu.cn | Address: No. 800 Dongchuan Road, Minhang District, Shanghai
 
 ## Publications
 
@@ -32,8 +32,8 @@ TBD
 
 ## Education Experience
 
-- Shanghai Jiao Tong University | Msc, Cyber Security | supervised by Yue Wu and Jiaping Gui | 09/2021 - 03/2024
-- Shanghai Jiao Tong University | B.Eng, Information Security (Zhiyuan Honor Program) | 09/2017 - 06/2021
+- Shanghai Jiao Tong University | Msc, Cyber Security | supervised by [Yue Wu](https://infosec.sjtu.edu.cn/DirectoryDetail.aspx?id=155) and [Jiaping Gui](https://infosec.sjtu.edu.cn/DirectoryDetail.aspx?id=173) | 09/2021 - 03/2024
+- Shanghai Jiao Tong University | B.Eng, Information Security ([Zhiyuan Honor Program](https://zhiyuan.sjtu.edu.cn/html/zhiyuan/student_view?id=3177)) | 09/2017 - 06/2021
 - Peking University | Summer school | 07/2019 - 08/2019
 
 ---
