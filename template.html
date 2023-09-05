@@ -1,0 +1,32 @@
+<head>
+    <title>$title$</title>
+    <link rel="stylesheet" href="assets/latex-css/style.css" />
+    <style>
+        p {
+            font-size: large;
+        }
+        li {
+            font-size: large;
+        }
+        body {
+            max-width: 125ch;
+        }
+    </style>
+</head>
+
+
+<body id="top" class>
+    $body$
+    <center>
+        <a href="#top">[Back to Top]</a> |
+        <u id="dark-mode-toggle">[Toggle Dark]</u>
+        <div>Powered by <a href="https://latex.vercel.app">latex.css</a> | Last updated: $date$</div>
+    </center>
+    <script>
+        document
+            .querySelector("#dark-mode-toggle")
+            .addEventListener('click', () => {
+                document.body.classList.toggle("latex-dark");
+            });
+    </script>
+</body>
