@@ -3,7 +3,7 @@ title: Xiang Chen Homepage
 date: 09/05/2023
 ---
 
-<!-- generate html using pandoc: pandoc --standalone --template template.html index.md -o index.html -->
+<!-- generate html using pandoc: pandoc --standalone --template _homepage/template.html _homepage/index.md -o index.html -->
 
 # Xiang Chen
 
@@ -13,7 +13,7 @@ date: 09/05/2023
 
 ---
 
-I'm now a Master student at [SJTU](ttps://www.sjtu.edu.cn), expected to join [Charles Zhang](https://cse.hkust.edu.hk/~charlesz)'s research group at HKUST in 2024 Fall as a PhD student. My research interest mainly focus on Software Security and Static Program Analysis.
+I am now a Master student at [SJTU](ttps://www.sjtu.edu.cn), expected to join [Charles Zhang](https://cse.hkust.edu.hk/~charlesz)'s research group at HKUST in 2024 Fall as a PhD student. My research interest mainly focus on Software Security and Static Program Analysis.
 
 [CV](https://rxresu.me/cascades/curriculum-vitae) | cascades@sjtu.edu.cn | sjtu.xiangchen@gmail.com
 
