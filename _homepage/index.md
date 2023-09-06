@@ -54,11 +54,11 @@ TBD
 - IS308: Computer System Security | SJTU | Spring 2023 | [Website](https://crypto.sjtu.edu.cn/is308)
 - NIS7021: Software and System Security | SJTU | Fall 2022 | [Website](http://cascades-sjtu.github.io/nis7021-labs)
 
-## Technical Blogs
+## Technical Blog
 
 ---
 
-I sometimes write research experiences, paper readings and CTF challenges on [blogs](https://cascades-sjtu.github.io/archives).
+I sometimes write research experiences, paper readings and CTF challenges on [blog](https://cascades-sjtu.github.io/archives).
 
 ## Awards
 
