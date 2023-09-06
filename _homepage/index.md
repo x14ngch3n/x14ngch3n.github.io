@@ -32,16 +32,17 @@ TBD
 
 ## Education Experience
 
+---
+
 - Shanghai Jiao Tong University | M.Sc, Cyber Security | supervised by [Yue Wu](https://infosec.sjtu.edu.cn/DirectoryDetail.aspx?id=155) and [Jiaping Gui](https://infosec.sjtu.edu.cn/DirectoryDetail.aspx?id=173) | 09/2021 - 03/2024
 - Shanghai Jiao Tong University | B.Eng, Information Security ([Zhiyuan Honor Program](https://zhiyuan.sjtu.edu.cn/html/zhiyuan/student_view?id=3177)) | 09/2017 - 06/2021
 - Peking University | Summer school | 07/2019 - 08/2019
-
----
 
 ## Industrial Experience
 
 ---
 
+- NIO Inc. | Cyber Security Academy Student Innovation Grant Program | 10/2022 - 10/2023
 - Huawei Technologies Co., Ltd. | Cloud Core Network | Software Engineering Group | 07/2023 - 09/2023
 - [Shanghai Qizhi Academy](https://sqz.ac.cn) | G.O.S.S.I.P Research Internship with [Juanru Li](http://lijuanru.com) | 07/2022 - 11/2022
 - [Shanghai Feiyu Information Technology Co., Ltd.](https://feysh.cn/#/) | Security Research & Development | 07/2021 - 09/2021
