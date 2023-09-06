@@ -1,13 +1,13 @@
 ---
 title: Xiang Chen Homepage
-date: 09/05/2023
+date: 09/06/2023
 ---
 
 <!-- generate html using pandoc: pandoc --standalone --template _homepage/template.html _homepage/index.md -o index.html -->
 
 # Xiang Chen
 
-<center>![Taken in 2021, the year I completed my undergraduate studies](assets/img/favicons/selfile.jpeg){width=400px}</center>
+<center>![Taken in 2021, the year I received my B.Eng.](assets/img/favicons/selfile.jpeg){width=400px}</center>
 
 ## About Me
 
@@ -32,7 +32,7 @@ TBD
 
 ## Education Experience
 
-- Shanghai Jiao Tong University | Msc, Cyber Security | supervised by [Yue Wu](https://infosec.sjtu.edu.cn/DirectoryDetail.aspx?id=155) and [Jiaping Gui](https://infosec.sjtu.edu.cn/DirectoryDetail.aspx?id=173) | 09/2021 - 03/2024
+- Shanghai Jiao Tong University | M.Sc, Cyber Security | supervised by [Yue Wu](https://infosec.sjtu.edu.cn/DirectoryDetail.aspx?id=155) and [Jiaping Gui](https://infosec.sjtu.edu.cn/DirectoryDetail.aspx?id=173) | 09/2021 - 03/2024
 - Shanghai Jiao Tong University | B.Eng, Information Security ([Zhiyuan Honor Program](https://zhiyuan.sjtu.edu.cn/html/zhiyuan/student_view?id=3177)) | 09/2017 - 06/2021
 - Peking University | Summer school | 07/2019 - 08/2019
 
