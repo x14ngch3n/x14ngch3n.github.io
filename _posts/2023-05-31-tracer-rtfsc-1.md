@@ -39,7 +39,23 @@ Tracer 的顶层目录结构如下：
 1. `--debian`: 分析 debian 软件包，在作者提供的镜像 `prosyslab/bug-bench-base` 里进行编译该项目，进行分析
 2. `--pacakge`: 分析本地项目，项目支持使用 `make` 编译
 
-接下来重点分析 `run_tracer`。
+接下来以 package 模式为例，重点分析 `run_tracer`，它驱动了整个 Tracer 的工作流程，
+
+1. 通过 `infer-capture` 收集 Infer 分析所需的编译数据库，可以通过 `compile_commands.json` 来获取，方便复用
+2. **只**运行 [Pulse checker](https://fbinfer.com/docs/next/checker-pulse/#latent-issues) 提取可能的 UAF 的代码行
+3. **只**运行 APIMisuse checker，给出可能的 traces，保存到 infer-result 中
+4. 运行 rank 模块，从上一步的输出文件夹中提取 trace，对 trace 进行计算和排名，得到最终的结果
+
+## Shell 脚本分析
+
+运行 Tracer 的过程中，需要两次调用 Infer，都是通过 `run-infer.sh` 的脚本实现的，该脚本除了对命令行的简单封装外，也有几个值得注意的参数
+
+1. TIMEOUT：通过 `timeout` 命令控制整体的运行时间，默认 1h
+2. OPTIONS：传递给 Infer 的分析参数，例如制定当前开启的 checker，例如 `--keep-going` 参数来忽略编译器在处理某些编译参数时的异常
+
+## 总结
+
+对于 Tracer 的运行脚本就介绍到这里，目前为止我们已经具备了用 Tracer 分析任意可获得编译数据库的项目的能力。但对于如何分析 Tracer 的产出还有点一头雾水，所以还需要对 rank 和 tracer-infer 两个模块进行重点分析。
 
 ## 参考链接
 
