@@ -42,7 +42,10 @@ Tracer 的顶层目录结构如下：
 接下来以 package 模式为例，重点分析 `run_tracer`，它驱动了整个 Tracer 的工作流程，
 
 1. 通过 `infer-capture` 收集 Infer 分析所需的编译数据库，可以通过 `compile_commands.json` 来获取，方便复用
-2. **只**运行 [Pulse checker](https://fbinfer.com/docs/next/checker-pulse/#latent-issues) 提取可能的 UAF 的代码行
+2. **只**运行 [Pulse checker](https://fbinfer.com/docs/next/checker-pulse/#latent-issues) 提取可能产生 UAF 的代码行，对应原文中的
+
+> We used the Pulse engine of Infer for use-after-free and double-free bugs.
+
 3. **只**运行 APIMisuse checker，给出可能的 traces，保存到 infer-result 中
 4. 运行 rank 模块，从上一步的输出文件夹中提取 trace，对 trace 进行计算和排名，得到最终的结果
 
