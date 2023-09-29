@@ -11,7 +11,7 @@ math: true
 
 tracer-infer 一共包括了 132 个 commit（前缀为 "[APIMisuse]"），最终结果实现为一个单独的 checker 目录，加上对于其他配置文件的修改以及注册 checker 的代码，使得作者自定义的 API-Misuse checker 能够在命令行被 Infer 直接调用。
 
-主要分析 [api-misuse](https://github.com/prosyslab/tracer-infer/tree/master/infer/src/api-misuse) 目录的代码，按照开发顺序，重点分析功能性改动，顺便熟悉 Infer 的开发流程。
+主要分析 [api-misuse](https://github.com/prosyslab/tracer-infer/tree/master/infer/src/api-misuse) 目录的代码，按照开发顺序，重点分析功能性改动，顺便熟悉 Infer 的开发流程。因为开发过程的局限性，不求第一次就看懂每个 commit 的功能，作出精准的解释，但求对于整体代码开发的结构和趋势有个大概的了解，熟悉最终代码的修改位置。
 
 整体的代码量为 3k LoC，分别如下：
 
@@ -108,6 +108,17 @@ let rec eval_locs : Exp.t -> Mem.t -> Dom.PowLocWithIdx.t
 
 
 此外，该 checker 还实现了一个 util.ml 模块，提供了打印 successor nodes 的函数，暂时用不着。
+
+## 5f24107: [APIMisuse] handle function call
+
+在 Summary 中加入了 `CondSet`，作为最后报告的类型，其定义为：
+
+```ocaml
+module Cond = struct
+  type t = {absloc: LocWithIdx.t; init: Init.t; loc: Location.t} [@@deriving compare]
+```
+
+在 exec_instr 中加入了对于 Load 指令的处理，在 check_instr 中加入了 Call 指令的处理，负责在过程间传递 Summary
 
 ## 参考链接
 
