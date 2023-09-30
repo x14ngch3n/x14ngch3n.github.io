@@ -108,3 +108,25 @@ and eval_binop bop e1 e2 mem = ...
 ## cc899de: [APIMisuse] add rules for integer overflow
 
 对于 IntOverflow 域的传播语义进行了完善，体现在对 eval_binop 函数的两个参数都进行了溢出和污点的传播
+
+## 32e7f57: [APIMisuse] interproc analysis
+
+修改了报告的条件为同时满足溢出和污点条件，如下代码所示：
+
+```ocaml
+let may_overflow = function
+| Overflow cond ->
+    IntOverflow.is_top cond.size && UserInput.is_taint cond.user_input
+| _ ->
+    false
+```
+
+为了支持过程间分析，还在 IntOverflow 域加入了 InferBO 提供的符号值
+
+## 56c3e75: [APIMisuse] refactoring
+
+将 APIMisuseModels 单独抽象成一个模块
+
+## 总结
+
+这五个 commit 实现了最基本的整数溢出分析，同时也进一步完善了分析框架。该系列博客暂且告一段落，下一步的目标是为其添加未初始化的抽象域。
