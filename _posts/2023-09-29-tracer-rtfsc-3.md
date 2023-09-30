@@ -129,4 +129,12 @@ let may_overflow = function
 
 ## 总结
 
-这五个 commit 实现了最基本的整数溢出分析，同时也进一步完善了分析框架。该系列博客暂且告一段落，下一步的目标是为其添加未初始化的抽象域。
+这五个 commit 实现了最基本的整数溢出分析，同时也进一步完善了分析框架。文章中实现的添加其他漏洞类型抽象域的操作还可以查看对应的 commit：
+
+- 2b7a7c6: [APIMisuse] add command execution checker
+- 7910e11: [APIMisuse] add int underflow checker
+- df143ae: [APIMisuse] add double-free checker
+- 5b97940: [APIMisuse] add use-after-free checker
+- f763e34: [APIMisuse] add uaf checker
+
+该系列博客暂且告一段落，下一步的目标是为其添加未初始化的抽象域。
