@@ -43,7 +43,7 @@ end
 
 作者把溢出与否用一个二元的抽象域 `Bot | Top` 来描述，这一部分也是我认为文章（为了保证 May Analysis）实现得比较草率的部分，在后续的实验中发现了很多的整数溢出的误报问题都是由这里的设计导致的。
 
-### 67c851d: [APIMisuse] initialize overflow checker
+## 67c851d: [APIMisuse] initialize overflow checker
 
 扩展了 Model 的类型到两类函数摘要 exec_fun 和 check_fun，分别用于分析阶段和检查阶段
 
