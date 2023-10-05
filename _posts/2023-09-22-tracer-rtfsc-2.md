@@ -106,7 +106,7 @@ let rec eval_locs : Exp.t -> Mem.t -> Dom.PowLocWithIdx.t
   - report 中先遍历 Nodes，最后调用到 check_instr 来检查每次遇到 Load 指令时，抽象内存中是否包含污点值且所有污点值的来源中是否存在未被初始化的情况，则报告源代码位置
   - For taint checking, we collect all possible source points that lead to the value.
 
-补充：最终版的打印报告的代码在 APIMisuseTrace.ml 中实现，在主模块中使用 collect 函数递归地收集 CondSet 条件，并在 report 函数中报告
+补充：最终版的打印报告的代码在 APIMisuseTrace.ml 中实现，在主模块中使用 collect 函数递归地（collect -> collect_node -> collect_instrs -> collect_instr）收集 CondSet 条件，并在 report 函数中报告
 
 此外，该 checker 还实现了一个 util.ml 模块，提供了打印 successor nodes 的函数，暂时用不着。
 

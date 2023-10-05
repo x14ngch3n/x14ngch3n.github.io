@@ -45,7 +45,7 @@ end
 
 ## 67c851d: [APIMisuse] initialize overflow checker
 
-扩展了 Model 的类型到两类函数摘要 exec_fun 和 check_fun，分别用于分析阶段和检查阶段
+扩展了 Model 的类型到两类函数摘要 exec_fun 和 check_fun，分别用于分析阶段（exec_instr）和检查阶段（check_instr）。
 
 ```ocaml
 type exec_fun = model_env -> ret:Ident.t * Typ.t -> APIMisuseDomain.Mem.t -> APIMisuseDomain.Mem.t
@@ -72,13 +72,21 @@ let exec {node; bo_mem_opt; location} ~ret:_ mem =
 in
 {exec; check= empty_check_fun}
 
-
+(* 对于 Integer Overflow 来说，暂时不需要对 malloc 的 exec 行为进行建模 *)
 let malloc size =
+(* 从抽象内存中提取信息，添加到条件集中 *)
 let check {location} mem condset =
     let v = Sem.eval size mem |> APIDom.Val.get_int_overflow in
     APIDom.CondSet.add (APIDom.Cond.make_overflow v location) condset
 in
 {empty with check}
+```
+
+每个建模的函数都要实现 exec 和 check 两个方法，默认的实现为 empty_exec_fun 和 empty_check_fun，即 identitiy 函数，定义如下：
+
+```ocaml
+let empty_exec_fun _ ~ret:_ mem = mem
+let empty_check_fun _ _ condset = condset
 ```
 
 对于 IntOverflow 这个新增的抽象域，也要实现对应的传播语义，即 eval 函数：
