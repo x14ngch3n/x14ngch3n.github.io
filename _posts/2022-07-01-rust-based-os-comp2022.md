@@ -63,7 +63,7 @@ tags: [rust, OS kernel]
 
 完结证明：
 
-![](https://s2.loli.net/2022/07/05/whHlBA5Sj3a4FmR.png)
+![placeholder](https://s2.loli.net/2022/07/05/whHlBA5Sj3a4FmR.png)
 
 ## 7.4 Day4
 
@@ -93,7 +93,7 @@ Rust 部分打算跟着[张汉东老师的视频](https://space.bilibili.com/249
 
 完结证明（顺便吐槽一下 auto-grading 的问题，只有0/100两种分数）：
 
-![](https://s2.loli.net/2022/07/06/XiYpdvnoQTEAmUR.png)
+![placeholder](https://s2.loli.net/2022/07/06/XiYpdvnoQTEAmUR.png)
 
 ## 7.7 Day7
 

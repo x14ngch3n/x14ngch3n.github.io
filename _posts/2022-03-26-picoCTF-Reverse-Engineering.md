@@ -101,7 +101,7 @@ flag = "".join([chr(int(c)) for c in flag])
   * 可以直接手动查看27个函数的调用位置，恢复出flag。
 * 动态调试：可以直接通过gdb的jump命令绕过`ada__calendar__delays__delay_for`函数。不过函数的实际执行地址是不确定的，而且由于被stripped了，只能先断在这个函数，然后绕过更加底层的`system.os_primitives.timed_delay`，即可打印出flag。
 
-![](https://s2.loli.net/2022/03/30/gkjvwCWnUi1NHP4.png){: width="90%" height="90%" .mx-auto.d-block :}
+![placeholder](https://s2.loli.net/2022/03/30/gkjvwCWnUi1NHP4.png){: width="90%" height="90%" .mx-auto.d-block :}
 
 ```shell
 (gdb) b ada__calendar__delays__delay_for

@@ -63,7 +63,7 @@ fatal: external diff died, stopping at Book1.xlsx
 
 大多数内部网络都是使用Gitlab来搭建内部的Git server，我则找到了一个更轻量，方便使用Docker搭建的[gogs](https://github.com/gogs/gogs)。所有环境搭建工作都是一键完成，基本的功能也有。尤其是它提供了官方的Docker镜像，从而不怕影响到我的服务器本地环境。
 
-![](https://s2.loli.net/2022/05/29/5SzPt1WNbvJRkTp.png)
+![placeholder](https://s2.loli.net/2022/05/29/5SzPt1WNbvJRkTp.png)
 
 ## 流程
 

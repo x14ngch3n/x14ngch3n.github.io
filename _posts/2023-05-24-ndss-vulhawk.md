@@ -12,19 +12,19 @@ tags: [program analysis, code search, paper reading]
 
 综合以上两个难点，本文提出了一种新的 IR function 模型，并利用信息熵理论将 2556 种场景归约为 71 种表征转化问题，提出了 VulHawk 模型来进行二进制代码搜索。和二进制代码比对相比，代码搜索需要进行一对多的比较，对于比对速度有更高的要求。
 
-![](https://s2.loli.net/2023/05/25/faiS7ptyvcM1ZFH.png)
+![placeholder](https://s2.loli.net/2023/05/25/faiS7ptyvcM1ZFH.png)
 
 VulHawk 的整体流程如上图所示。首先，VulHawk 用 IDA Pro 提取出跨架构的 Microcode，随后使用 `opcode left right dest` 的模型来分词，并引入自定义的 opcode 来解决 Out-of-Vocabulary 的问题。VulHawk 采用了 RoBERTa 的 NLP 模型，在预处理部分，VulHawk 对经过分词后的 Microcode 进行了分类和指令简化。在指令简化前，先显示地构建出操作 EFLAGS 的指令，随后以（1）全局变量和内存中的变量（2）函数返回值（3）子函数调用参数 三类指令为标记，依据 def-use 关系进行指令简化。经过简化后的指令如下图所示，某种意义上达到了反编译的效果，减轻了后续神经网络的负担。
 
-![](https://s2.loli.net/2023/05/25/4vQx1X2ImZwSiRs.png)
+![placeholder](https://s2.loli.net/2023/05/25/4vQx1X2ImZwSiRs.png)
 
 在预训练阶段，VulHawk 针对 Microcode 使用了 Masked Language Model (MLM), Root Operand Prediction(ROP), and Adjacent Block Prediction (ABP) 三个模型。在生成 BasicBlock 的 embedding 之后，VulHawk 再结合 CFG 信息，喂给 GCN 模型后，得到 Function 的 embedding。
 
-![](https://s2.loli.net/2023/05/25/oOIJe8GcX2VwWku.png)
+![placeholder](https://s2.loli.net/2023/05/25/oOIJe8GcX2VwWku.png)
 
 随后是对不同编译工具链组合的处理，VulHawk 使用了分治的思路。首先，作者使用信息熵来区分出不同的编译工具链组合，如下图所示，即使是在不同的项目中，信息熵也可以起到很好的区分效果，使用 ResNet 来识别信息熵图即可。作者使用 O1-GCC-x86-64 作为一个中间对象，定义了 71 个转移函数，将其他编译工具链组合的生成的 Function embedding 转移到中间对象上再进行比较。
 
-![](https://s2.loli.net/2023/05/25/xdfHqgzAn1R9bcI.png)
+![placeholder](https://s2.loli.net/2023/05/25/xdfHqgzAn1R9bcI.png)
 
 在得到了同一的 embedding 之后，作者还采用了渐近式（progressive）的搜索策略。第一阶段，先根据 Function embedding 进行搜索。但考虑到函数内部 minor patch 的场景，很多时候需要细粒度的信息，VulHawk 再次收集了  BasicBlock 和字符串常量等信息进行精细化的比对。
 
