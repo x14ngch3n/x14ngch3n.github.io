@@ -7,7 +7,9 @@ date: 09/06/2023
 
 # Xiang Chen
 
-<center>![Taken in 2021, the year I received my B.Eng.](assets/img/favicons/selfile.jpeg){width=400px}</center>
+| ![](assets/img/favicons/selfile.jpg){width=450px} | ![](assets/img/favicons/couple.jpg){width=450px} |
+|:-:|:-:|
+| Taken in 2021, the year I received my B.Eng. | Taken in 2021, with my girlfriend |
 
 ## About Me
 
