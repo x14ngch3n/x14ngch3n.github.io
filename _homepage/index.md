@@ -17,7 +17,7 @@ date: 11/02/2023
 
 I am now a Master student at [SJTU](ttps://www.sjtu.edu.cn), expected to join [Charles Zhang](https://cse.hkust.edu.hk/~charlesz)'s research group at HKUST in 2024 Fall as a PhD student. My research interest mainly focus on Software Security and Static Program Analysis.
 
-[CV](https://rxresu.me/cascades/curriculum-vitae) | Email: cascades@sjtu.edu.cn / [Gmail](sjtu.xiangchen@gmail.com) | Address: No. 800 Dongchuan Road, Minhang District, Shanghai
+[CV](https://rxresu.me/cascades/curriculum-vitae) | Email: cascades@sjtu.edu.cn / [Gmail](mailto:sjtu.xiangchen@gmail.com) | Address: No. 800 Dongchuan Road, Minhang District, Shanghai
 
 ## Publications
 
