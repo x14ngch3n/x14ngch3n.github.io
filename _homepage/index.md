@@ -73,7 +73,7 @@ I sometimes write research experiences, paper readings and CTF challenges on [bl
 
 ---
 
-- Postgraduate Scholarship (PGS) | 09/2023
+- (Expected) Postgraduate Scholarship (PGS) | 09/2024
 - DEFCON CTF 30 2nd place (played with Katzebin) | 08/2022
 - Rong Chang Leadership Scholarship (<1%) | 11/2021, 11/2022
 - Zhiyuan Honor Bachelor Degree (Cum Laude, <1%) | 06/2021
