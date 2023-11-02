@@ -49,6 +49,13 @@ TBD
 - [Shanghai Qizhi Academy](https://sqz.ac.cn) | G.O.S.S.I.P Research Internship with [Juanru Li](http://lijuanru.com) | 07/2022 - 11/2022
 - [Shanghai Feiyu Information Technology Co., Ltd.](https://feysh.cn/#/) | Security Research & Development | 07/2021 - 09/2021
 
+## OSS Experience
+
+---
+
+- OSPP 2023 | openEuler community | Peephole optimization in LLVM InstCombine Pass | [Code](https://gitee.com/openeuler/llvm-project/pulls/28) [Documentation](https://gitee.com/cascades/llvm-project/wikis)
+- SJTUBeamer | Beamer template for Shanghai Jiao Tong University | [Code](https://github.com/sjtug/SJTUBeamer)
+
 ## Teaching Experience
 
 ---
