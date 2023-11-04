@@ -451,6 +451,10 @@ let plus : t -> t -> t =
 
 最后，分享一个有意思的 [patch](https://github.com/facebook/infer/pull/1736)，可以帮助理解即使是在区间域的情况下，考虑到对性能的取舍，还是会在运算中存在丢失精度（对比 Linear 和 MinMax）的情况。
 
+---
+
+更新：找到了论文作者在开发 InferBO 时的 [slides](https://kihongheo.kaist.ac.kr/slides/inferbo.pdf)，里面有自定义 Interval Domain 运算的形式化定义。
+
 ## 参考链接
 
 [^inferbo_issues]: https://fbinfer.com/docs/all-issue-types#integer_overflow_l1
