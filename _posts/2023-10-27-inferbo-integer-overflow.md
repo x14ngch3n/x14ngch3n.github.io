@@ -142,7 +142,7 @@ let binary_operation integer_type_widths pname bop ~lhs ~rhs ~latest_prune locat
       cond_set
 ```
 
-难道到这里就结束了？实际上通过运行查看 Infer 的调试信息可以发现，检测的代码是在 CFG 的最后一个基本块（EXIT）才运行的。即 Infer 采用了一种 delay 的方式进行检测，bufferOverrunUtils.ml 里的代码只负责检测任务。具体表现为添加一个 BinaryOperationCondition 对象。该对象定义在 bufferOverrunProofObligations.ml 模块中，整个 InferBO 一共定义了 3 类检查条件：
+难道到这里就结束了？实际上通过运行查看 Infer 的调试信息可以发现，检测的代码是在 CFG 的最后一个基本块（EXIT）才运行的。即 Infer 采用了一种 delay 的方式进行检测，bufferOverrunUtils.ml 里的代码只负责检测任务。具体表现为添加一个 BinaryOperationCondition 对象，将其收集到 ConditionSet 当中，在整体分析完成后再进行检查（这一模式也被 Tracer 进行了效仿）。Condition 对象定义在 bufferOverrunProofObligations.ml 模块中，整个 InferBO 一共定义了 3 类检查条件：
 
 ```ocaml
 module Condition = struct
