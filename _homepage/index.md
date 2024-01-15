@@ -23,7 +23,6 @@ I am now a Master student at [SJTU](ttps://www.sjtu.edu.cn), expected to join [C
 
 ---
 
-TBD
 
 ## Talks
 
@@ -75,6 +74,6 @@ I sometimes write research experiences, paper readings and CTF challenges on [bl
 
 - (Expected) Postgraduate Scholarship (PGS) | 09/2024
 - DEFCON CTF 30 2nd place (played with Katzebin) | 08/2022
-- Rong Chang Leadership Scholarship (<1%) | 11/2021, 11/2022
+- Rong Chang Leadership Scholarship (<1%) | 11/2021, 11/2022, 12/2023
 - Zhiyuan Honor Bachelor Degree (Cum Laude, <1%) | 06/2021
 - Shanghai Outstanding Graduate (<5%) | 05/2021
