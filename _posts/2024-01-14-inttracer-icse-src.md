@@ -4,7 +4,7 @@ category: [Research, Conference]
 tag: [program analysis, c/c++]
 ---
 
-> 在前端时间针对Tracer文章的改动，整理了一下投稿到ICSE SRC 2024。这是我第一次完全独立且全程参与的文章投稿与录用，麻雀虽小（类似大摘要，只有2页），但五脏俱全（包括了几乎正式论文的所有流程）。在此我将投稿和参会准备工作都记录下来。
+> 在前端时间针对Tracer文章的改进，整理了一下投稿到ICSE SRC 2024。这是我第一次完全独立且全程参与的文章投稿与录用，麻雀虽小（类似大摘要，只有2页），但五脏俱全（包括了几乎正式论文的所有流程）。在此我将投稿和参会准备工作都记录下来。
 
 ## TODO：投稿过程
 
@@ -12,11 +12,11 @@ tag: [program analysis, c/c++]
 
 按照官网通知的时间，录用通知在1/12前会发出，但我到了13号晚上一直没有收到邮件，HotCRP和会议官网没有更新。咨询了其他有经验的同学后，听说是不管录用与否都会有结果的，这种规模较小的track反而更有可能被committee放鸽子。于是在14号早上，当我看到会议官网的Notification DDL那一栏从绿变红了之后，我感觉可能是已经出结果了。于是马上从床上爬起来去查看HotCRP，发现了论文投递状态已经更新为Accepted。
 
-![](https://s2.loli.net/2024/01/18/lg6iyI5TbCR1Le7.png)
+![hotcrp](https://s2.loli.net/2024/01/18/lg6iyI5TbCR1Le7.png)
 
-然后检查邮箱，发现也收到了录取通知的邮件。邮件里还附带了每位评委的评审意见和后续邮件的预告。
+然后检查邮箱，发现也收到了录取通知的邮件。邮件里还附带了每位评委的评审意见和对于camera ready邮件的预告。
 
-![](https://s2.loli.net/2024/01/18/25VZts9p3zav1f4.png)
+![camera-ready](https://s2.loli.net/2024/01/18/25VZts9p3zav1f4.png)
 
 ## 稿件准备
 
@@ -26,8 +26,16 @@ tag: [program analysis, c/c++]
 
 ### TODO：内容
 
-应该会收到camera ready的邮件
+以ICSE SRC为例，我一共收到了5份审稿意见（A，B，C，D，E），其中最后1份是对前面4份的总结。每份意见的格式如下：
 
+- Overall merit：给出一个综合分数，例如3. Weak accept和2. Weak Reject，这个决定了最终的录用结果
+- Reviewer expertise：审稿者的领域了解情况，例如Knowledgeable和Expert
+- Paper summary：审稿者会对你的文章内容，按照自己的理解写一个summary，可以对比着看看自己的abstract是不是漏掉了什么内容
+- Comments for authors：审稿意见本体，如果是偏向于Accept，一般会先讲缺点再讲优点。
+
+可能是由于我这是第一次写稿，所以没提前估计好时间，导致最后实际的2页内容只用了从截稿当天早上8点到晚上8点的12个小时来写。在我的审稿意见中到处可见关于“presentation issue”的字样（包括但不限于typo和逻辑不顺），甚至被要求再做一遍proofreading，感觉真是低级错误。
+
+应该给自己设置一个DDL，要把每次的会议截止日期的时间当作本地时间来完成，这样最后才能留有足够的时间来检查内容。
 
 ### 版权
 
