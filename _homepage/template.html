@@ -5,28 +5,23 @@
         p {
             font-size: large;
         }
+        center {
+            font-size: large;
+        }
         li {
             font-size: large;
         }
         body {
-            max-width: 125ch;
+            max-width: 120ch;
         }
     </style>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
 </head>
 
 
-<body id="top" class>
+<body id="top" class="libertinus">
     $body$
     <center>
-        <a href="#top">[Back to Top]</a> |
-        <u id="dark-mode-toggle">[Toggle Dark]</u>
-        <div>Powered by <a href="https://latex.vercel.app">latex.css</a> | Last updated: $date$</div>
+        <a href="#top">[Back to Top]</a> | Powered by <a href="https://latex.vercel.app">latex.css</a> | Last updated: $date$
     </center>
-    <script>
-        document
-            .querySelector("#dark-mode-toggle")
-            .addEventListener('click', () => {
-                document.body.classList.toggle("latex-dark");
-            });
-    </script>
 </body>

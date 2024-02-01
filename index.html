@@ -5,17 +5,21 @@
         p {
             font-size: large;
         }
+        center {
+            font-size: large;
+        }
         li {
             font-size: large;
         }
         body {
-            max-width: 125ch;
+            max-width: 120ch;
         }
     </style>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
 </head>
 
 
-<body id="top" class>
+<body id="top" class="libertinus">
     <!-- generate html using pandoc: pandoc --standalone --template _homepage/template.html _homepage/index.md -o index.html -->
     <h1 id="xiang-chen">Xiang Chen</h1>
     <table>
@@ -25,12 +29,10 @@
     </colgroup>
     <thead>
     <tr class="header">
-    <th style="text-align: center;"><img
-    src="assets/img/favicons/selfile.jpg" width="450"
-    alt="placeholder" /></th>
-    <th style="text-align: center;"><img
-    src="assets/img/favicons/couple.jpg" width="450"
-    alt="placeholder" /></th>
+    <th style="text-align: center;"><img src="assets/img/selfile-21.jpg"
+    width="450" alt="placeholder" /></th>
+    <th style="text-align: center;"><img src="assets/img/couple-21.jpg"
+    width="450" alt="placeholder" /></th>
     </tr>
     </thead>
     <tbody>
@@ -44,102 +46,36 @@
     </table>
     <h2 id="about-me">About Me</h2>
     <hr />
-    <p>I am now a Master student at <a
-    href="ttps://www.sjtu.edu.cn">SJTU</a>, expected to join <a
-    href="https://cse.hkust.edu.hk/~charlesz">Charles Zhang</a>’s
-    research group at HKUST in 2024 Fall as a PhD student. My research
-    interest mainly focus on Software Security and Static Program
-    Analysis.</p>
-    <p><a href="https://rxresu.me/cascades/curriculum-vitae">CV</a> |
-    Email: <a
+    <blockquote>
+    <p>All problems in computer science can be solved by another level
+    of indirection – David Wheeler</p>
+    </blockquote>
+    <center>
+    <a href="https://rxresu.me/cascades/curriculum-vitae">CV</a> | <a
+    href="https://cascades-sjtu.github.io/archives">Blog</a> | <a
+    href="https://orcid.org/0009-0007-0626-6888">ORCID</a> | Email: <a
     href="mailto:cascades@sjtu.edu.cn">cascades@sjtu.edu.cn</a> / <a
-    href="mailto:sjtu.xiangchen@gmail.com">Gmail</a> | Address: No. 800
-    Dongchuan Road, Minhang District, Shanghai</p>
+    href="mailto:sjtu.xiangchen@gmail.com">sjtu.xiangchen@gmail.com</a>
+    </center>
+    <p>I am now a Master student at Shanghai Jiao Tong University,
+    expected to join <a
+    href="https://cse.hkust.edu.hk/~charlesz">Charles Zhang</a>’s
+    research group at The Hong Kong University of Science and Technology
+    in 2024 Fall as a PhD student. My research interest mainly focus on
+    <strong>Software Security</strong> and <strong>Static Program
+    Analysis</strong>.</p>
     <h2 id="publications">Publications</h2>
     <hr />
-    <h2 id="talks">Talks</h2>
-    <hr />
     <ul>
-    <li>Custom Memory Functions Demystified: A tutorial of memory
-    corruptions detection using Goshawk. <a
-    href="https://github.com/cascades-sjtu/Goshawk-tutorial/">Website</a>
-    <a
-    href="https://github.com/cascades-sjtu/Goshawk-tutorial/blob/main/slide/asiaccs23-tutorial-export.pdf">Slides</a></li>
-    <li>C/C++ static analysis with LLVM compiler infrastructure. <a
-    href="https://mp.weixin.qq.com/s/QxfoEiuwiMxav5qtKWxfwg">News</a> <a
-    href="https://github.com/cascades-sjtu/Slides/blob/main/industry/vois-export.pdf">Slides</a></li>
-    </ul>
-    <h2 id="education-experience">Education Experience</h2>
-    <hr />
-    <ul>
-    <li>Shanghai Jiao Tong University | M.Sc, Cyber Security |
-    supervised by <a
-    href="https://infosec.sjtu.edu.cn/DirectoryDetail.aspx?id=155">Yue
-    Wu</a> and <a
-    href="https://infosec.sjtu.edu.cn/DirectoryDetail.aspx?id=173">Jiaping
-    Gui</a> | 09/2021 - 03/2024</li>
-    <li>Shanghai Jiao Tong University | B.Eng, Information Security (<a
-    href="https://zhiyuan.sjtu.edu.cn/html/zhiyuan/student_view?id=3177">Zhiyuan
-    Honor Program</a>) | 09/2017 - 06/2021</li>
-    <li>Peking University | Summer school | 07/2019 - 08/2019</li>
-    </ul>
-    <h2 id="industrial-experience">Industrial Experience</h2>
-    <hr />
-    <ul>
-    <li>NIO Inc. | Cyber Security Academy Student Innovation Grant
-    Program | 10/2022 - 10/2023</li>
-    <li>Huawei Technologies Co., Ltd. | Cloud Core Network | Software
-    Engineering Group | 07/2023 - 09/2023</li>
-    <li><a href="https://sqz.ac.cn">Shanghai Qizhi Academy</a> |
-    G.O.S.S.I.P Research Internship with <a
-    href="http://lijuanru.com">Juanru Li</a> | 07/2022 - 11/2022</li>
-    <li><a href="https://feysh.cn/#/">Shanghai Feiyu Information
-    Technology Co., Ltd.</a> | Security Research &amp; Development |
-    07/2021 - 09/2021</li>
-    </ul>
-    <h2 id="oss-experience">OSS Experience</h2>
-    <hr />
-    <ul>
-    <li>OSPP 2023 | openEuler community | Peephole optimization in LLVM
-    InstCombine Pass | <a
-    href="https://gitee.com/openeuler/llvm-project/pulls/28">Code</a> <a
-    href="https://gitee.com/cascades/llvm-project/wikis">Documentation</a></li>
-    <li>SJTUBeamer | Beamer template for Shanghai Jiao Tong University |
-    <a href="https://github.com/sjtug/SJTUBeamer">Code</a></li>
-    </ul>
-    <h2 id="teaching-experience">Teaching Experience</h2>
-    <hr />
-    <ul>
-    <li>IS308: Computer System Security | SJTU | Spring 2023 | <a
-    href="https://crypto.sjtu.edu.cn/is308">Website</a></li>
-    <li>NIS7021: Software and System Security | SJTU | Fall 2022 | <a
-    href="http://cascades-sjtu.github.io/nis7021-labs">Website</a></li>
-    </ul>
-    <h2 id="technical-blog">Technical Blog</h2>
-    <hr />
-    <p>I sometimes write research experiences, paper readings and CTF
-    challenges on <a
-    href="https://cascades-sjtu.github.io/archives">blog</a>.</p>
-    <h2 id="awards">Awards</h2>
-    <hr />
-    <ul>
-    <li>(Expected) Postgraduate Scholarship (PGS) | 09/2024</li>
-    <li>DEFCON CTF 30 2nd place (played with Katzebin) | 08/2022</li>
-    <li>Rong Chang Leadership Scholarship (&lt;1%) | 11/2021, 11/2022,
-    12/2023</li>
-    <li>Zhiyuan Honor Bachelor Degree (Cum Laude, &lt;1%) | 06/2021</li>
-    <li>Shanghai Outstanding Graduate (&lt;5%) | 05/2021</li>
+    <li><a
+    href="https://cascades-sjtu.github.io/assets/pdfs/inttracer-icsesrc24.pdf">PDF</a>
+    <a href="https://github.com/cascades-sjtu/tracer-infer">Code</a> <a
+    href="">Poster</a> <strong>Xiang Chen</strong>. 2024. IntTracer:
+    Sanitization-aware IO2BO Vulnerability Detection across Codebases.
+    In 2024 IEEE/ACM 46th International Conference on Software
+    Engineering: Companion Proceedings (ICSE-Companion ’24), April</li>
     </ul>
     <center>
-        <a href="#top">[Back to Top]</a> |
-        <u id="dark-mode-toggle">[Toggle Dark]</u>
-        <div>Powered by <a href="https://latex.vercel.app">latex.css</a> | Last updated: 11/02/2023</div>
+        <a href="#top">[Back to Top]</a> | Powered by <a href="https://latex.vercel.app">latex.css</a> | Last updated: 02/01/2024
     </center>
-    <script>
-        document
-            .querySelector("#dark-mode-toggle")
-            .addEventListener('click', () => {
-                document.body.classList.toggle("latex-dark");
-            });
-    </script>
 </body>
