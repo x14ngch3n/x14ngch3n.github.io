@@ -16,34 +16,39 @@
         }
     </style>
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
+    <style>
+        /* 设置相册容器的样式 */
+        .photo-album {
+            width: 100%; /* 相册宽度 */
+            overflow-x: auto; /* 允许水平滚动 */
+            white-space: nowrap; /* 禁止换行 */
+            margin: auto; /* 居中显示 */
+        }
+        .photo {
+            display: inline-block;
+            margin-right: 4%;
+            width: 48%;
+        }
+        .caption {
+            text-align: center;
+            font-size: large;
+        }
+    </style>
 </head>
 
-
 <body id="top" class="libertinus">
+    <h1>Xiang Chen</h1>
+    <div class="photo-album">
+        <div class="photo">
+            <img src="assets/img/selfile-21.jpg" alt="Image 1">
+            <div class="caption">Taken in 2021, the year I received my B.Eng.</div>
+        </div>
+        <div class="photo">
+            <img src="assets/img/couple-21.jpg" alt="Image 2">
+            <div class="caption">Taken in 2021, with my girlfriend.</div>
+        </div>
+    </div>
     <!-- generate html using pandoc: pandoc --standalone --template _homepage/template.html _homepage/index.md -o index.html -->
-    <h1 id="xiang-chen">Xiang Chen</h1>
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th style="text-align: center;"><img src="assets/img/selfile-21.jpg"
-    width="450" alt="placeholder" /></th>
-    <th style="text-align: center;"><img src="assets/img/couple-21.jpg"
-    width="450" alt="placeholder" /></th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td style="text-align: center;">Taken in 2021, the year I received
-    my B.Eng.</td>
-    <td style="text-align: center;">Taken in 2021, with my
-    girlfriend</td>
-    </tr>
-    </tbody>
-    </table>
     <h2 id="about-me">About Me</h2>
     <hr />
     <blockquote>

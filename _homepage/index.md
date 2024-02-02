@@ -5,12 +5,6 @@ date: 02/01/2024
 
 <!-- generate html using pandoc: pandoc --standalone --template _homepage/template.html _homepage/index.md -o index.html -->
 
-# Xiang Chen
-
-| ![placeholder](assets/img/selfile-21.jpg){width=450px} | ![placeholder](assets/img/couple-21.jpg){width=450px} |
-|:-:|:-:|
-| Taken in 2021, the year I received my B.Eng. | Taken in 2021, with my girlfriend |
-
 ## About Me
 
 ---

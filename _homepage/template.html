@@ -16,10 +16,38 @@
         }
     </style>
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
+    <style>
+        /* 设置相册容器的样式 */
+        .photo-album {
+            width: 100%; /* 相册宽度 */
+            overflow-x: auto; /* 允许水平滚动 */
+            white-space: nowrap; /* 禁止换行 */
+            margin: auto; /* 居中显示 */
+        }
+        .photo {
+            display: inline-block;
+            margin-right: 4%;
+            width: 48%;
+        }
+        .caption {
+            text-align: center;
+            font-size: large;
+        }
+    </style>
 </head>
 
-
 <body id="top" class="libertinus">
+    <h1>Xiang Chen</h1>
+    <div class="photo-album">
+        <div class="photo">
+            <img src="assets/img/selfile-21.jpg" alt="Image 1">
+            <div class="caption">Taken in 2021, the year I received my B.Eng.</div>
+        </div>
+        <div class="photo">
+            <img src="assets/img/couple-21.jpg" alt="Image 2">
+            <div class="caption">Taken in 2021, with my girlfriend.</div>
+        </div>
+    </div>
     $body$
     <center>
         <a href="#top">[Back to Top]</a> | Powered by <a href="https://latex.vercel.app">latex.css</a> | Last updated: $date$
