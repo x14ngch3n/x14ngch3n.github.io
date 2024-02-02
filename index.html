@@ -2,13 +2,10 @@
     <title>Xiang Chen Homepage</title>
     <link rel="stylesheet" href="https://unpkg.com/latex.css/style.min.css" />
     <style>
-        p {
-            font-size: large;
+        li, p, h1, h2, center {
+            color: #2e3440;
         }
-        center {
-            font-size: large;
-        }
-        li {
+        li, p, center {
             font-size: large;
         }
         body {
@@ -17,12 +14,11 @@
     </style>
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
     <style>
-        /* 设置相册容器的样式 */
         .photo-album {
-            width: 100%; /* 相册宽度 */
-            overflow-x: auto; /* 允许水平滚动 */
-            white-space: nowrap; /* 禁止换行 */
-            margin: auto; /* 居中显示 */
+            width: 100%;
+            overflow-x: auto;
+            white-space: nowrap;
+            margin: auto;
         }
         .photo {
             display: inline-block;
@@ -36,7 +32,7 @@
     </style>
 </head>
 
-<body id="top" class="libertinus">
+<body id="top" class="libertinus" style="background-color: #eceff4">
     <h1>Xiang Chen</h1>
     <div class="photo-album">
         <div class="photo">
@@ -51,10 +47,6 @@
     <!-- generate html using pandoc: pandoc --standalone --template _homepage/template.html _homepage/index.md -o index.html -->
     <h2 id="about-me">About Me</h2>
     <hr />
-    <blockquote>
-    <p>All problems in computer science can be solved by another level
-    of indirection. – David Wheeler</p>
-    </blockquote>
     <center>
     <a href="https://rxresu.me/cascades/curriculum-vitae">CV</a> | <a
     href="https://cascades-sjtu.github.io/archives">Blog</a> | <a
@@ -81,6 +73,6 @@
     Engineering: Companion Proceedings (ICSE-Companion ’24), April</li>
     </ul>
     <center>
-        <a href="#top">[Back to Top]</a> | Powered by <a href="https://latex.vercel.app">latex.css</a> | Last updated: 02/01/2024
+        <a href="#top">[Back to Top]</a> | Powered by <a href="https://latex.vercel.app">latex.css</a> | Last updated: 02/02/2024
     </center>
 </body>
