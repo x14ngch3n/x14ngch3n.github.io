@@ -7,4 +7,4 @@ center=20,0&\
 zoom=1&\
 size=500x250&\
 scale=2&\
-markers=size:tiny|Melbroune|Shenzhen" --output ./assets/img/map.png
+markers=size:tiny|Melbroune|Shenzhen|Lisbon" --output ./assets/img/map.png
