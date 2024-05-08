@@ -10,10 +10,10 @@ date: 28/04/2024
 ---
 
 <center>
-[CV](https://cascades-sjtu.github.io/assets/pdfs/CV.pdf) | [Blog](https://cascades-sjtu.github.io/archives) | [ORCID](https://orcid.org/0009-0007-0626-6888) | Email: [sjtu.xiangchen@gmail.com](mailto:sjtu.xiangchen@gmail.com)
+[CV](https://cascades-sjtu.github.io/assets/pdfs/CV.pdf) | [Blog](https://cascades-sjtu.github.io/archives) | [ORCID](https://orcid.org/0009-0007-0626-6888) | Email: [x14ngch3n@gmail.com](mailto:x14ngch3n@gmail.com)
 </center>
 
-I am now a Master student at Shanghai Jiao Tong University, expected to join [Charles Zhang](https://cse.hkust.edu.hk/~charlesz)'s research group at The Hong Kong University of Science and Technology in 2024 Fall as a PhD student. My research interest mainly focus on **Software Security** and **Static Program Analysis**.
+I obtained my Master's degree at Shanghai Jiao Tong University, and is expected to join [Charles Zhang](https://cse.hkust.edu.hk/~charlesz)'s research group at The Hong Kong University of Science and Technology in 2024 Fall as a PhD student. My research interest mainly focus on **Software Security** and **Static Program Analysis**.
 
 ## Publications
 
