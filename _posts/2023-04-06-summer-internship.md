@@ -63,7 +63,7 @@ tags: [program analysis, c/c++]
 
 考虑那一主要是因为~~它离学校近~~从之前它们的实习生总结看来，在这里可以学到不少技术，而且带有一些学术性质，所以应该也可以和贾老板聊很多出国读博的事情。它们之前的产品也是基于 CSA 开发的静态分析工具，我还是比较有信心。
 
-首先是做了一个离线的笔试，还比较考验综合水平，我也挺喜欢这样的笔试形式的。笔试给定了一个小项目，要求完成 4 个 commit，最终完成的结果打包为 [git bundle](https://cascades-sjtu.github.io/assets/attachments/submission.bundle)：
+首先是做了一个离线的笔试，还比较考验综合水平，我也挺喜欢这样的笔试形式的。笔试给定了一个小项目，要求完成 4 个 commit，最终完成的结果打包为 [git bundle](https://x14ngch3n.github.io/assets/attachments/submission.bundle)：
 
 1. 编写构建文件，使项目以及第三方库能够顺利编译
 2. 根据文档，完成功能函数，通过给定的测试用例

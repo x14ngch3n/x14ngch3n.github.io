@@ -76,4 +76,4 @@ GoSSIP 曾在 2022 年的 IEEE S&P 发表了文章《Goshawk: Hunting Memory Cor
 [^paper]: https://ieeexplore.ieee.org/document/9833613
 [^website]: https://goshawk.code-analysis.org/
 [^github]: https://github.com/Yunlongs/Goshawk
-[^tutorial]: https://github.com/cascades-sjtu/Goshawk-tutorial
+[^tutorial]: https://github.com/x14ngch3n/Goshawk-tutorial

@@ -14,7 +14,7 @@ tags: [plan]
 | -------------------------- | -------- | -------------------------------------------------------- | --------------------- |
 | [CS61A](https://cs61a.org) | UCB      | `./2022-05-30-summer-self-learning-plan.md`{: .filepath} | 2022.05.21-2022.07.08 |
 | [rCore](https://learningos.github.io/rust-based-os-comp2022/) | Tsinghua      | `./2022-07-01-rust-based-os-comp2022.md`{: .filepath} | 2022.07.01-2022.07.30 |
-| [CSAPP](https://github.com/cascades-sjtu/CS-APP)                      | CMU      |                                                          | 2022.06.09-2022.06.30 |
+| [CSAPP](https://github.com/x14ngch3n/CS-APP)                      | CMU      |                                                          | 2022.06.09-2022.06.30 |
 | CS106B/X/L                 | Stanford |                                                          | 2022.07.01-2022.08.01 |
 | 6.S081                     | MIT      |                                                          | 2022.08.01-2022.09.01 |
 | CS143                      | Stanford |                                                          | 2022.08.01-2022.09.01 |

@@ -43,7 +43,7 @@ GitHub 官方也演示了如何使用预定义的模板[为自己的项目定制
 
 ### 一个简单的 devcontainer.json 实例
 
-对于常见的 Linux 下开发环境的搭建，我在 Ubuntu 的最小化实例上进行了简单的定制，配置文件见：<https://gist.github.com/cascades-sjtu/065ae8723702318b48f303e6e595c402>
+对于常见的 Linux 下开发环境的搭建，我在 Ubuntu 的最小化实例上进行了简单的定制，配置文件见：<https://gist.github.com/x14ngch3n/065ae8723702318b48f303e6e595c402>
 
 ## 原理
 

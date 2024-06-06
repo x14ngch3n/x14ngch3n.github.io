@@ -25,7 +25,7 @@ tags: [rust, OS kernel]
 
 今天开始[step0 自学Rust编程](https://github.com/rcore-os/rCore/wiki/study-resource-of-system-programming-in-RUST)。咋一眼看上去觉得 Rust 的教程太多了，比我之前自己整理的`./2022-04-20-Rust-learning-record.md`{: .filepath}多了不知道哪里去了。不过还是不能一口气吃个大胖子，先按照训练营的要求来做吧。
 
-由于我之前已经做过 [rustlings](https://github.com/cascades-sjtu/rustlings) 了， 所以直接开始做 [32 Rust Quizes](https://dtolnay.github.io/rust-quiz/1)，对照着教程复习一些语法的知识，顺便把 writeup 写在下面。这个练习的难度相对来说比 rustlings 要难，需要理解 rust macro，还包括了一些 corner case。所以也不要给自己太大压力了，先求了解吧。
+由于我之前已经做过 [rustlings](https://github.com/x14ngch3n/rustlings) 了， 所以直接开始做 [32 Rust Quizes](https://dtolnay.github.io/rust-quiz/1)，对照着教程复习一些语法的知识，顺便把 writeup 写在下面。这个练习的难度相对来说比 rustlings 要难，需要理解 rust macro，还包括了一些 corner case。所以也不要给自己太大压力了，先求了解吧。
 
 1. Rust 宏定义以及参数传递。Rust 宏和 C 的字符串预处理不同，是带有语义类型的替换
 2. 使用 Rustfmt 进行语义分析，闭包，impl trait
