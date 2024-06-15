@@ -1,5 +1,5 @@
 ---
-title: Xiang Chen's Homepage
+title: Xiang Chen
 date: 06/06/2024
 ---
 
@@ -10,10 +10,10 @@ date: 06/06/2024
 ---
 
 <center>
-[CV](https://x14ngch3n.github.io/assets/pdfs/CV.pdf) | [Blog](https://x14ngch3n.github.io/archives) | [ORCID](https://orcid.org/0009-0007-0626-6888) | Email: [x14ngch3n@gmail.com](mailto:x14ngch3n@gmail.com)
+[CV](https://x14ngch3n.github.io/assets/pdfs/CV.pdf) | [Blog](https://x14ngch3n.github.io/archives) | [ORCID](https://orcid.org/0009-0007-0626-6888) | Email: [x14ngch3n@gmail.com](mailto:x14ngch3n@gmail.com) / [xiangchenra@ust.hk](mailto:xiangchenra@ust.hk)
 </center>
 
-I am currently a Research Assistant at The Hong Kong University of Science and Technology in 2024 Fall, supervised by [Charles Zhang](https://cse.hkust.edu.hk/~charlesz). Before that I obtained my Bachelor and Master's degree in Shanghai Jiao Tong University. My research interests mainly focus on Software Security and Static Program Analysis.
+I am a Research Assistant at The Hong Kong University of Science and Technology during 2024 Summer, supervised by [Charles Zhang](https://cse.hkust.edu.hk/~charlesz). Before that I obtained my Bachelor and Master's degree in Shanghai Jiao Tong University. My research interests mainly focus on Software Security and Static Program Analysis.
 
 ## Publications
 
