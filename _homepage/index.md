@@ -1,6 +1,6 @@
 ---
 title: Xiang Chen
-date: 16/06/2024
+date: 05/07/2024
 ---
 
 <!-- generate html using pandoc: pandoc --standalone --template _homepage/template.html _homepage/index.md -o index.html -->
@@ -37,4 +37,4 @@ I am a Research Assistant at The Hong Kong University of Science and Technology 
 
 ---
 
-I have attended conferences in the following places.
+I have attended academic conferences in the following places.
