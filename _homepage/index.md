@@ -26,6 +26,9 @@ I am a Research Assistant at The Hong Kong University of Science and Technology 
 <a href="https://x14ngch3n.github.io/assets/pdfs/inttracer-icsesrc24.pdf"><i class="fa-solid fa-file-pdf"></i></a>
 <a href="https://github.com/x14ngch3n/tracer-infer"><i class="fa-brands fa-github"></i></a>
 
+- Tianming Zheng, Haojun Liu, Hang Xu, **Xiang Chen**, Ping Yi, Yue Wu. Few-VulD: A Few-shot learning framework for software vulnerability detection, Computers & Security, 2024
+<a href="https://doi.org/10.1016/j.cose.2024.103992"><i class="fa-solid fa-file-pdf"></i></a>
+
 ## Talks
 
 ---
