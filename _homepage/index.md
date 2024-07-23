@@ -10,13 +10,16 @@ date: 15/07/2024
 ---
 
 <center>
-[CV](https://x14ngch3n.github.io/assets/pdfs/CV.pdf) | [Blog](https://x14ngch3n.github.io/archives) | [ORCID](https://orcid.org/0009-0007-0626-6888) | Email: [x14ngch3n@gmail.com](mailto:x14ngch3n@gmail.com) / [xiangchenra@ust.hk](mailto:xiangchenra@ust.hk)
+[CV](https://x14ngch3n.github.io/assets/pdfs/CV.pdf) | [Blog](https://x14ngch3n.github.io/archives) | [ORCID](https://orcid.org/0009-0007-0626-6888) | Email: [x14ngch3n@gmail.com](mailto:x14ngch3n@gmail.com) / [x14ng.chen@connect.ust.hk](mailto:x14ngch3n@connect.ust.hk)
 </center>
 <center>
 [Address](https://maps.app.goo.gl/zHPrM8VJkHFWhgGF6): Academic Building 3664, Lifts 31/32, Clear Water Bay, Kowloon, Hong Kong
 </center>
 
-I am a Research Assistant at The Hong Kong University of Science and Technology during 2024 Summer, supervised by [Charles Zhang](https://cse.hkust.edu.hk/~charlesz). Before that I obtained my Bachelor and Master's degree in Shanghai Jiao Tong University. My research interests mainly focus on Software Security and Static Program Analysis.
+I about to start my Ph.D at The Hong Kong University of Science and Technology during 2024 Summer, supervised by [Charles Zhang](https://cse.hkust.edu.hk/~charlesz). Before that I obtained my Bachelor and Master's degree in Shanghai Jiao Tong University. My research interests mainly focus on Software Security and Static Program Analysis.
+
+<!-- The open-source and hack should link to seperate pages (commits/trophies) in the future -->
+Beyond research, I devote myself to the [Clearblue](https://clearblueinnovations.org/) project and do some [open-source](https://github.com/x14ngch3n)/[hacking](https://ctftime.org/user/121120) practices.
 
 ## Publications
 
