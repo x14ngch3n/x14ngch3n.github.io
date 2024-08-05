@@ -44,6 +44,11 @@ jobs:
           ruby-version: 3.2   # reads from a '.ruby-version' or '.tools-version' file if 'ruby-version' is omitted
           bundler-cache: true
 
+      - name: Build html
+        uses: docker://pandoc/latex:2.9
+        with: 
+          args: "--standalone --template _homepage/template.html _homepage/index.md -o index.html"
+
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:
