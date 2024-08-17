@@ -19,7 +19,7 @@ date: 13/08/2024
 I am a first-year Ph.D. student at The Hong Kong University of Science and Technology, supervised by [Charles Zhang](https://cse.hkust.edu.hk/~charlesz). Before that, I obtained my Bachelor's and Master’s degrees at Shanghai Jiao Tong University. My research interests mainly focus on Software Security and Static Program Analysis.
 
 <!-- The open-source and hack should link to separate pages (commits/trophies) in the future -->
-I devote myself to the [Clearblue](https://clearblueinnovations.org/) research project while doing [open-source](https://github.com/x14ngch3n)/[hacking](https://ctftime.org/user/121120) practices in spare time.
+I devote myself to the [Clearblue](https://clearblueinnovations.org/) research project while practicing [open-source](https://github.com/x14ngch3n)/[hacking](https://ctftime.org/user/121120) in spare time.
 
 ## Publications
 
