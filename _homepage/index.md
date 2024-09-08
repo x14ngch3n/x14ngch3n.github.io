@@ -16,7 +16,7 @@ date: 13/08/2024
 [Address](https://maps.app.goo.gl/zHPrM8VJkHFWhgGF6): Academic Building 3664, Lifts 31/32, Clear Water Bay, Kowloon, Hong Kong
 </center>
 
-I am a first-year Ph.D. student at The Hong Kong University of Science and Technology, supervised by [Charles Zhang](https://cse.hkust.edu.hk/~charlesz). Before that, I obtained my Bachelor's and Master’s degrees at Shanghai Jiao Tong University. My research interests mainly focus on Software Security and Static Program Analysis.
+I am a first-year Ph.D. student at The Hong Kong University of Science and Technology, supervised by [Charles Zhang](https://cse.hkust.edu.hk/~charlesz). Before that, I obtained my Bachelor's and Master’s degrees at Shanghai Jiao Tong University. My research interests mainly focus on C/C++ Software Security and Static Binary Analysis.
 
 <!-- The open-source and hack should link to separate pages (commits/trophies) in the future -->
 I devote myself to the [Clearblue](https://clearblueinnovations.org/) research project while practicing [open-source](https://github.com/x14ngch3n)/[hacking](https://ctftime.org/user/121120) in spare time.
