@@ -32,6 +32,12 @@ I devote myself to the [Clearblue](https://clearblueinnovations.org/) research p
 - Tianming Zheng, Haojun Liu, Hang Xu, **Xiang Chen**, Ping Yi, Yue Wu. Few-VulD: A Few-shot learning framework for software vulnerability detection, Computers & Security, 2024
 <a href="https://doi.org/10.1016/j.cose.2024.103992"><i class="fa-solid fa-file-pdf"></i></a>
 
+## Services
+
+---
+
+- Artifact Evaluation Committee: [USENIX Sec '25](https://secartifacts.github.io/usenixsec2025/aec-call)
+
 ## Talks
 
 ---
