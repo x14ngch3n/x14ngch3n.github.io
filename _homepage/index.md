@@ -36,7 +36,7 @@ I devote myself to the [Clearblue](https://clearblueinnovations.org/) research p
 
 ---
 
-- Artifact Evaluation Committee: [USENIX Sec '25](https://secartifacts.github.io/usenixsec2025/aec-call)
+- Artifact Evaluation Committee: [USENIX Sec '25](https://www.usenix.org/conference/usenixsecurity25/call-for-artifacts)
 
 ## Talks
 
