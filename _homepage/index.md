@@ -10,7 +10,7 @@ date: 27/11/2024
 ---
 
 <center>
-[CV](https://x14ngch3n.github.io/assets/pdfs/CV.pdf) | [Blog](https://x14ngch3n.github.io/archives) | [ORCID](https://orcid.org/0009-0007-0626-6888) | Email: [x14ngch3n@gmail.com](mailto:x14ngch3n@gmail.com) / [xchenht@cse.ust.hk](mailto:xchenht@cse.ust.hk)
+[CV](/assets/pdfs/CV.pdf) | [Blog](/archives) | [ORCID](https://orcid.org/0009-0007-0626-6888) | Email: [x14ngch3n@gmail.com](mailto:x14ngch3n@gmail.com) / [xchenht@cse.ust.hk](mailto:xchenht@cse.ust.hk)
 </center>
 <center>
 [Address](https://maps.app.goo.gl/zHPrM8VJkHFWhgGF6): Academic Building 3664, Lifts 31/32, Clear Water Bay, Kowloon, Hong Kong
