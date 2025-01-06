@@ -37,7 +37,7 @@ category: [Misc]
 
 因为需要case by case地去看，很多时候的进度就是一周修复1-2个bug。终于我们在11月完成了这个任务，随后我便开始把重心转移到Plankton lifter上来。我首先调研了导师最关心的在C++ binary上构建callgraph的任务，对应到lifter阶段就是如何恢复虚函数表以及对应的class hierarchy。对于有debug info的情况，这是一个纯工程的问题；对于没有debug info，甚至没有symbol的情况，则不存在一个通用的方案。目前主流的两种思路是通过各种heuristic来找虚函数表，缺点是不能适配各种C++ ABI和指令集；通过object数据流分析找到virtual pointer以及对应的虚函数表初始化的位置，缺点是受到程序优化的影响较大。此类研究因为CFI的热度而流行过一段时间（2014-2020），但却没有一个集大成式的工作/文章来总结，能称得上是一个open problem。结合组里的研究方向来说：如何支持不同语言的虚函数表？如何分辨虚函数表和跳转表？如何处理相对虚函数表（relative vtable）？我认为都是值得探索的方向。
 
-为了让我们尽快上手lifter的代码，学长还提出了两个good first issue：PIC代码中switch case的恢复和C++ try-catch的恢复。在有debug symbol的情况下，这也不会是太难的问题。我先是对C++ try-catch的恢复进行了一次文献调研，发现这也是一个结合控制流和类型恢复的topic。在一次和导师的沟通后，我决定将C++ lifting作为自己接下来一段时间的工作重心，并根据几类OOP特征的lift写了一篇[literature review](/assets/pdfs/oop-lifting.pdf)，同时回顾了binary lifter这个领域从2013年以来到现在的几乎所有主流lifter的实现。
+为了让我们尽快上手lifter的代码，学长还提出了两个good first issue：PIC代码中switch case的恢复和C++ try-catch的恢复。在有debug symbol的情况下，这也不会是太难的问题。我先是对C++ try-catch的恢复进行了一次文献调研，发现这也是一个结合控制流和类型恢复的topic。在一次和导师的沟通后，我决定将C++ lifting作为自己接下来一段时间的工作重心，并根据几类OOP特征的lift写了一篇[literature review](assets/pdfs/oop-lifting.pdf)，同时回顾了binary lifter这个领域从2013年以来到现在的几乎所有主流lifter的实现。
 
 在最后的2个月，我还接手了关于CBTransform模块的维护工作。这个模块负责对用于静态分析之前的IR进行优化，使得其更好地适配静态分析器的工作。例如使得代码更紧凑，从而提高分析器工作效率；lower掉静态分析器不支持的指令类型。虽然写Pass本身是很容易的事情，但深刻理解LLVM中的几个经典Pass（SimplifyCFG，InstCombine）还是能够提高功力的。在这个过程中还发现一个有趣的问题：即lifter产生的verified IR，在经过CBTransform之后仍然会产生malformed IR，例如lifter先恢复出switch语句，但在静态分析时却又被lower为if-else语句。这些工程问题普遍反应了我们对于**什么是最适合静态分析的IR**以及**如何更好地配合lifter和静态分析器**仍然存在不统一的看法。尤其是前者，我认为从lifter的角度出发，结合最近很火的MLIR/Clang IR，这将是一个有趣的研究方向。有意思的是，我还申请了IDA Pro的学生license，希望能在接下来的一年熟练使用这些SOTA工具。
 
@@ -49,4 +49,4 @@ category: [Misc]
 
 如果说这半年的博士生活有什么感触，第一个是要学会**圈内经营，圈外低调**。以前我没有融入任何学术的圈子，从而总想着提高自己的表面影响力。但现在，我可能只要能把自己的能力证明给组内的导师/学长就足够了。另一个就是**所有优秀的博士生都应当有成熟的科学哲学素养**，如何逐渐入门一个领域，找到自己想做的问题，提高学术品位，这是贯穿各个研究领域的问题，也是我认为博士生需要提升的软技能。
 
-最后，给2025年的自己一点期望：能够完成自己的第一篇顶会工作并录用，能够review至少一篇顶会文章，能够参加一次有意义的开源贡献，能够参加一次国际学术会议，能够定下自己PQE主题。
+最后，给2025年的自己一点期望：能够完成自己的第一篇顶会工作并录用，能够review二篇顶会文章，能够在LLVM/Binary相关的开源项目贡献1k+LoC，能够参加一次国际学术会议，能够定下自己的PQE主题。
