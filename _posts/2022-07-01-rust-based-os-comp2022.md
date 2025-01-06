@@ -132,7 +132,7 @@ Rust 部分打算跟着[张汉东老师的视频](https://space.bilibili.com/249
 
 ## 7.10 Day10
 
-今天把 RISCV 的特权级相关资料初步看了一下，主要是一个[大会的视频](https://www.youtube.com/watch?v=m8DqCTogb8w&t=1725s)和 [RISC-V手册：一本开源指令集的指南](http://riscvbook.com/chinese/RISC-V-Reader-Chinese-v2p1.pdf)的第十章。但可能自己对于 Architecture 的基础太弱了，导致看起来很费劲。所以还是接着看文档了，这样能更快地熟悉几个重要的 CSR 寄存器。
+今天把 RISCV 的特权级相关资料初步看了一下，主要是一个[大会的视频](https://www.youtube.com/watch?v=m8DqCTogb8w&t=1725s)和 [RISC-V手册：一本开源指令集的指南](https://riscvbook.com/chinese/RISC-V-Reader-Chinese-v2p1.pdf)的第十章。但可能自己对于 Architecture 的基础太弱了，导致看起来很费劲。所以还是接着看文档了，这样能更快地熟悉几个重要的 CSR 寄存器。
 
 ## 7.11 Day11
 

@@ -8,5 +8,5 @@ tags: [reverse engineering, binary security]
 
 参考链接：
 
-* 题目地址：<http://reversing.kr>
+* 题目地址：<https://reversing.kr>
 * 其他writeup：<https://hackmd.io/@zeze/BJziWsCWw>
