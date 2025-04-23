@@ -36,7 +36,7 @@ I devote myself to the [Clearblue](https://clearblueinnovations.org/) research p
 
 ---
 
-- Artifact Evaluation Committee: [USENIX Sec '25](https://www.usenix.org/conference/usenixsecurity25/call-for-artifacts), [PLDI '25](https://pldi25.sigplan.org/track/pldi-2025-pldi-research-artifacts#Call-for-Reviewers)
+- Artifact Evaluation Committee: [USENIX Sec '25](https://www.usenix.org/conference/usenixsecurity25/call-for-artifacts), [PLDI '25](https://pldi25.sigplan.org/track/pldi-2025-pldi-research-artifacts#Call-for-Reviewers), [OSDI '25](https://www.usenix.org/conference/osdi25/call-for-artifacts)
 
 ## Talks
 
