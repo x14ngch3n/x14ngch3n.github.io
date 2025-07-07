@@ -1,6 +1,6 @@
 ---
 title: Xiang Chen
-date: 27/11/2024
+date: 07/07/2025
 ---
 
 <!-- generate html using pandoc: pandoc --standalone --template _homepage/template.html _homepage/index.md -o index.html -->
@@ -36,7 +36,7 @@ I devote myself to the [Clearblue](https://clearblueinnovations.org/) research p
 
 ---
 
-- Artifact Evaluation Committee: [USENIX Sec '25](https://www.usenix.org/conference/usenixsecurity25/call-for-artifacts), [PLDI '25](https://pldi25.sigplan.org/track/pldi-2025-pldi-research-artifacts#Call-for-Reviewers), [OSDI '25](https://www.usenix.org/conference/osdi25/call-for-artifacts), [CCS '25](https://www.sigsac.org/ccs/CCS2025/call-for-artifacts/)
+- Artifact Evaluation Committee: [USENIX Sec '25](https://www.usenix.org/conference/usenixsecurity25/call-for-artifacts), [PLDI '25](https://pldi25.sigplan.org/track/pldi-2025-pldi-research-artifacts#Call-for-Reviewers), [OSDI '25](https://www.usenix.org/conference/osdi25/call-for-artifacts), [CCS '25](https://www.sigsac.org/ccs/CCS2025/call-for-artifacts/), [NDSS '26](https://www.ndss-symposium.org/ndss2026/submissions/call-for-artifacts/)
 
 ## Talks
 
