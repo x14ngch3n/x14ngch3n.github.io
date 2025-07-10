@@ -25,12 +25,10 @@ I devote myself to the [Clearblue](https://clearblueinnovations.org/) research p
 
 ---
 
-- **Xiang Chen**. 2024. IntTracer: Sanitization-aware IO2BO Vulnerability Detection across Codebases. In 2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (**ICSE-Companion ’24**)
-<a href="https://dl.acm.org/doi/pdf/10.1145/3639478.3641223"><i class="fa-solid fa-file-pdf"></i></a>
-<a href="https://github.com/x14ngch3n/tracer-infer"><i class="fa-brands fa-github"></i></a>
+- <a href="https://dl.acm.org/doi/pdf/10.1145/3639478.3641223"><i class="fa-solid fa-file-pdf"></i></a>
+<a href="https://github.com/x14ngch3n/tracer-infer"><i class="fa-brands fa-github"></i></a> **Xiang Chen**. 2024. IntTracer: Sanitization-aware IO2BO Vulnerability Detection across Codebases. In 2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (**ICSE-Companion ’24**)
 
-- Tianming Zheng, Haojun Liu, Hang Xu, **Xiang Chen**, Ping Yi, Yue Wu. Few-VulD: A Few-shot learning framework for software vulnerability detection, Computers & Security, 2024
-<a href="https://doi.org/10.1016/j.cose.2024.103992"><i class="fa-solid fa-file-pdf"></i></a>
+- <a href="https://doi.org/10.1016/j.cose.2024.103992"><i class="fa-solid fa-file-pdf"></i></a> Tianming Zheng, Haojun Liu, Hang Xu, **Xiang Chen**, Ping Yi, Yue Wu. Few-VulD: A Few-shot learning framework for software vulnerability detection, Computers & Security, 2024
 
 ## Services
 
