@@ -40,8 +40,7 @@ I devote myself to the [Clearblue](https://clearblueinnovations.org/) research p
 
 ---
 
-- **Xiang Chen**, Siqi Ma. 2023. Custom Memory Functions Demystified: A tutorial of memory corruptions detection using Goshawk. In ACM ASIA Conference on Computer and Communications Security (**ASIA CCS ’23**) 
-<a href="https://github.com/x14ngch3n/Goshawk-tutorial"><i class="fa-brands fa-github"></i></a>
+- <a href="https://github.com/x14ngch3n/Goshawk-tutorial"><i class="fa-brands fa-github"></i></a> **Xiang Chen**, Siqi Ma. 2023. Custom Memory Functions Demystified: A tutorial of memory corruptions detection using Goshawk. In ACM ASIA Conference on Computer and Communications Security (**ASIA CCS ’23**) 
 
 ## Conference Map
 
