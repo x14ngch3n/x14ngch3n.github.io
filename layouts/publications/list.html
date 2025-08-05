@@ -14,7 +14,7 @@
         <ul>
         {{ range $pubs }}
         <li class="publication-item">
-            <strong>{{ .title }}</strong> | {{ .authors | replaceRE "Xiang Chen" "<strong>Xiang Chen</strong>" | safeHTML }} | <em>{{ .venue }}</em>{{ if .venue_short }} (<strong>{{ .venue_short }}</strong>){{ end }} | 
+            {{ .authors | replaceRE "Xiang Chen" "<strong>Xiang Chen</strong>" | safeHTML }} | <strong>{{ .title }}</strong> | <em>{{ .venue }}</em>{{ if .venue_short }} (<strong>{{ .venue_short }}</strong>){{ end }}
             {{ if .pdf }}<a href="{{ .pdf }}" target="_blank" rel="noopener"><span data-feather='file-text'></span></a>{{ end }}
             {{ if .code }}<a href="{{ .code }}" target="_blank" rel="noopener"><span data-feather='github'></span></a>{{ end }}
             {{ if .slides }}<a href="{{ .slides }}" target="_blank" rel="noopener"><span data-feather='presentation'></span></a>{{ end }}
