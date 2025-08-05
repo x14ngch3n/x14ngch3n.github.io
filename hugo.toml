@@ -58,7 +58,7 @@ title = "Xiang Chen"
 
   [[menu.main]]
     name = "CV"
-    url = "/cv/"
+    url = "/pdf/CV.pdf"
     pre = "<span data-feather='user'></span>"
     weight = 4
 
@@ -67,6 +67,12 @@ title = "Xiang Chen"
     url = "/publications/"
     pre = "<span data-feather='file-text'></span>"
     weight = 5
+
+  [[menu.main]]
+    identifier = "calendar"
+    url = "https://xiangchen.notion.site/22a0ea3f3805809d9812e114ff925935?v=22a0ea3f380580d7b0ec000cf5e0b869"
+    pre = "<span data-feather='calendar'></span>"
+    weight = 6
   
 
   [[menu.main]]
@@ -76,7 +82,7 @@ title = "Xiang Chen"
 
     # Absolute URL to external resource
     url = "https://github.com/x14ngch3n"
-    weight = 6
+    weight = 7
     
     # Surround the menu entry (or name) with HTML content, such as Feather
     # icons: https://feathericons.com
