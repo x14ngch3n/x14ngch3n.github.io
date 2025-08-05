@@ -25,15 +25,9 @@ title = "Xiang Chen"
   customHeadHTML = """
     <script defer src="https://cloud.umami.is/script.js" data-website-id="ab7a1a38-b3db-4f9d-838f-9078751fd5ae"></script>
   """
-  # customFooterHTML = """
-  #   <script src="https://utteranc.es/client.js"
-  #       repo="x14ngch3n/x14ngch3n.github.io"
-  #       issue-term="pathname"
-  #       theme="github-light"
-  #       crossorigin="anonymous"
-  #       async>
-  #   </script>
-  # """
+
+  showPostsOnHomePage = "recent"
+  numberPostsOnHomePage = 4
 
 [menu]
   [[menu.main]]

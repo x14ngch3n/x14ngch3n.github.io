@@ -1,0 +1,63 @@
+/* Custom font configuration for LXGW Bright */
+
+/* Import LXGW Bright font from GitHub */
+@import url('https://cdn.jsdelivr.net/npm/lxgw-bright@1.0.0/lxgwbright.css');
+
+/* Override default font families */
+:root {
+  --font-family-sans: "LXGW Bright", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-family-serif: "LXGW Bright", "Noto Serif SC", "Source Han Serif SC", Georgia, serif;
+  --font-family-mono: "JetBrains Mono", "Fira Code", "Cascadia Code", "SF Mono", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* Apply font to body and main text elements */
+body {
+  font-family: var(--font-family-sans) !important;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-sans) !important;
+}
+
+/* Navigation */
+.header-nav a, .header-nav {
+  font-family: var(--font-family-sans) !important;
+}
+
+/* Post content */
+.post-content, .post-content p, .post-content li {
+  font-family: var(--font-family-sans) !important;
+}
+
+/* Post titles */
+.post-header-section h1 {
+  font-family: var(--font-family-sans) !important;
+}
+
+/* Footer */
+.footer {
+  font-family: var(--font-family-sans) !important;
+}
+
+/* Tags */
+.post-tags, .post-tag {
+  font-family: var(--font-family-sans) !important;
+}
+
+/* Code blocks keep monospace font */
+code, pre, .highlight {
+  font-family: var(--font-family-mono) !important;
+}
+
+/* Ensure consistent font rendering */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Improve Chinese text rendering */
+body {
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "liga" 1, "kern" 1;
+}
