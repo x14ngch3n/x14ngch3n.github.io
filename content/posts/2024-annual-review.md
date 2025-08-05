@@ -1,6 +1,5 @@
 +++
 date = '2024-12-30T20:03:54+08:00'
-draft = true
 title = '2024 Annual Review'
 tags = ["misc"]
 showTableOfContents = true

@@ -1,6 +1,5 @@
 +++
 date = '2023-09-06T20:38:31+08:00'
-draft = true
 title = 'OSPP 2023: Optimizing LLVM InstCombine Pass'
 tags = ['llvm']
 showTableOfContents = true
