@@ -10,7 +10,7 @@
   - title: "Few-VulD: A Few-shot learning framework for software vulnerability detection"
     authors: "Tianming Zheng, Haojun Liu, Hang Xu, Xiang Chen, Ping Yi, Yue Wu"
     venue: "Computers & Security"
-    venue_short: ""
+    venue_short: null
     year: 2024
     pdf: "https://doi.org/10.1016/j.cose.2024.103992"
     code: null
