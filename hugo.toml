@@ -1,0 +1,103 @@
+baseURL = "https://x14ngch3n.github.io/"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+languageCode = "en"
+theme = "gokarna"
+title = "Xiang Chen"
+
+[params]
+  socialIcons = [
+    {name = "twitter", url = "https://x.com/XiangChen19699"},
+    {name = "gmail", url = "mailto:x14ngch3n@gmail.com"},
+    {name = "googlescholar", url = "https://scholar.google.com/citations?user=sAE_ZkEAAAAJ&hl=en"},
+    {name = "orcid", url = "https://orcid.org/0009-0007-0626-6888"},
+    {name = "googlemaps", url = "https://maps.app.goo.gl/zHPrM8VJkHFWhgGF6"},
+  ]
+  avatarAltText = "avatar"
+  avatarSize = "size-m"
+  avatarURL = "/images/selfile-21.jpg"
+
+  description = "PhD student in CSE, HKUST"
+  footer = "08/05 last updated"
+  metaKeywords = ["academic", "research"]
+  showBackToTopButton = true # true or false for "back to top" button on posts and pages
+  
+  customHeadHTML = """
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="ab7a1a38-b3db-4f9d-838f-9078751fd5ae"></script>
+  """
+  # customFooterHTML = """
+  #   <script src="https://utteranc.es/client.js"
+  #       repo="x14ngch3n/x14ngch3n.github.io"
+  #       issue-term="pathname"
+  #       theme="github-light"
+  #       crossorigin="anonymous"
+  #       async>
+  #   </script>
+  # """
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<span data-feather='home'></span>"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    # Display name
+    name = "Posts"
+
+    # Relative URL slug (appended to baseURL)
+    url = "/posts/"
+
+    # Favicon icon to display before the name
+    pre = "<span data-feather='book'></span>"
+
+    # Lower weights are listed first in the menu (leftmost); higher weights are
+    # listed last in the menu (rightmost)
+    weight = 2
+
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    pre = "<span data-feather='tag'></span>"
+    weight = 3
+
+  [[menu.main]]
+    name = "CV"
+    url = "/cv/"
+    pre = "<span data-feather='file-text'></span>"
+    weight = 4
+
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    pre = "<span data-feather='bookmark'></span>"
+    weight = 5
+  
+
+  [[menu.main]]
+    # Unique identifiers are required for menu entries without a name property,
+    # or for menu entries which re-use a name
+    identifier = "github"
+
+    # Absolute URL to external resource
+    url = "https://github.com/x14ngch3n"
+    weight = 6
+    
+    # Surround the menu entry (or name) with HTML content, such as Feather
+    # icons: https://feathericons.com
+    pre = "<span data-feather='github'></span>"
+    post = ""
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 4
+    ordered = false
+
+[minify]
+  minifyOutput = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
