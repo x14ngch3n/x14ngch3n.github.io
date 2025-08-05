@@ -65,13 +65,13 @@ title = "Xiang Chen"
   [[menu.main]]
     name = "CV"
     url = "/cv/"
-    pre = "<span data-feather='file-text'></span>"
+    pre = "<span data-feather='user'></span>"
     weight = 4
 
   [[menu.main]]
     name = "Publications"
     url = "/publications/"
-    pre = "<span data-feather='bookmark'></span>"
+    pre = "<span data-feather='file-text'></span>"
     weight = 5
   
 
