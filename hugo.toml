@@ -7,7 +7,8 @@ title = "Xiang Chen"
 
 [params]
   socialIcons = [
-    {name = "twitter", url = "https://x.com/XiangChen19699"},
+    {name = "x", url = "https://x.com/XiangChen19699"},
+    {name = "email", url = "mailto:xchenht@cse.ust.hk"},
     {name = "gmail", url = "mailto:x14ngch3n@gmail.com"},
     {name = "googlescholar", url = "https://scholar.google.com/citations?user=sAE_ZkEAAAAJ&hl=en"},
     {name = "googlemaps", url = "https://maps.app.goo.gl/zHPrM8VJkHFWhgGF6"},
