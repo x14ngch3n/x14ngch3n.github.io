@@ -1,0 +1,22 @@
+<footer class="footer">
+    <!-- Option for user to inject custom html -->
+    {{ if .Site.Params.CustomFooterHTML }}
+    {{ .Site.Params.CustomFooterHTML | safeHTML }}
+    {{ end }}
+
+    {{ .Scratch.Set "footerText" "" }}
+
+    {{ .Scratch.Add "footerText" "Powered by [Gokarna](https://github.com/gokarna-theme/gokarna-hugo) | " }}
+
+    {{ if (.Site.Params.LastUpdated) }}
+        <!-- Always use today's date in YYYY/MM/DD format -->
+        {{ .Scratch.Add "footerText" "Last updated: " }}
+        {{ .Scratch.Add "footerText" (now.Format "2006/01/02") }}
+    {{ end }}
+
+    {{ if (gt (.Scratch.Get "footerText" | len) 0) }}
+        <span>{{ .Scratch.Get "footerText" | markdownify }}</span>
+    {{ end }}
+
+
+</footer>

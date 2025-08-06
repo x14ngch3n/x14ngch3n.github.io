@@ -10,15 +10,17 @@ title = "Xiang Chen"
     {name = "twitter", url = "https://x.com/XiangChen19699"},
     {name = "gmail", url = "mailto:x14ngch3n@gmail.com"},
     {name = "googlescholar", url = "https://scholar.google.com/citations?user=sAE_ZkEAAAAJ&hl=en"},
-    {name = "orcid", url = "https://orcid.org/0009-0007-0626-6888"},
     {name = "googlemaps", url = "https://maps.app.goo.gl/zHPrM8VJkHFWhgGF6"},
+    {name = "orcid", url = "https://orcid.org/0009-0007-0626-6888"},
+    {name = "github", url = "https://github.com/x14ngch3n"}
   ]
   avatarAltText = "avatar"
   avatarSize = "size-m"
   avatarURL = "/images/selfile-21.jpg"
 
   description = "PhD student in CSE, HKUST"
-  footer = "08/05 last updated"
+  # Enable dynamic footer with today's date
+  lastUpdated = true
   metaKeywords = ["academic", "research"]
   showBackToTopButton = true # true or false for "back to top" button on posts and pages
   
@@ -58,7 +60,7 @@ title = "Xiang Chen"
 
   [[menu.main]]
     name = "CV"
-    url = "/pdf/CV.pdf"
+    url = "/pdf/cv.pdf"
     pre = "<span data-feather='user'></span>"
     weight = 4
 
@@ -69,30 +71,15 @@ title = "Xiang Chen"
     weight = 5
 
   [[menu.main]]
-    identifier = "calendar"
+    name = "Timeline"
     url = "https://xiangchen.notion.site/22a0ea3f3805809d9812e114ff925935?v=22a0ea3f380580d7b0ec000cf5e0b869"
     pre = "<span data-feather='calendar'></span>"
     weight = 6
-  
-
-  [[menu.main]]
-    # Unique identifiers are required for menu entries without a name property,
-    # or for menu entries which re-use a name
-    identifier = "github"
-
-    # Absolute URL to external resource
-    url = "https://github.com/x14ngch3n"
-    weight = 7
-    
-    # Surround the menu entry (or name) with HTML content, such as Feather
-    # icons: https://feathericons.com
-    pre = "<span data-feather='github'></span>"
-    post = ""
 
 [markup]
   [markup.tableOfContents]
     startLevel = 1
-    endLevel = 4
+    endLevel = 3
     ordered = false
 
 [minify]
