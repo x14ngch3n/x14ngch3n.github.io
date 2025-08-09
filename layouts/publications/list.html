@@ -6,29 +6,39 @@
 
     <div class="post-content">
         {{ .Content }}
-        
+
         {{ range $year, $pubs := .Site.Data.publications }}
         {{ if $pubs }}
         <h2>{{ $year }}</h2>
-        
+
         <ul>
-        {{ range $pubs }}
-        <li class="publication-item">
-            {{ .authors | replaceRE "Xiang Chen" "<strong>Xiang Chen</strong>" | safeHTML }} | <strong>{{ .title }}</strong> | <em>{{ .venue }}</em>{{ if .venue_short }} (<strong>{{ .venue_short }}</strong>){{ end }}
-            {{ if .pdf }}<a href="{{ .pdf }}" target="_blank" rel="noopener"><span data-feather='file-text'></span></a>{{ end }}
-            {{ if .code }}<a href="{{ .code }}" target="_blank" rel="noopener"><span data-feather='github'></span></a>{{ end }}
-            {{ if .slides }}<a href="{{ .slides }}" target="_blank" rel="noopener"><span data-feather='presentation'></span></a>{{ end }}
-            {{ if .video }}<a href="{{ .video }}" target="_blank" rel="noopener"><span data-feather='video'></span></a>{{ end }}
-            {{ if .arxiv }}<a href="{{ .arxiv }}" target="_blank" rel="noopener"><span data-feather='book'></span></a>{{ end }}
-        </li>
-        {{ end }}
+            {{ range $pubs }}
+            <li class="publication-item">
+                <div class="pub-title"><strong>{{ .title }}</strong>
+                    {{ if .pdf }}<a href="{{ .pdf }}" target="_blank" rel="noopener"><span
+                            data-feather='file-text'></span></a>{{ end }}
+                    {{ if .code }}<a href="{{ .code }}" target="_blank" rel="noopener"><span
+                            data-feather='github'></span></a>{{ end }}
+                    {{ if .slides }}<a href="{{ .slides }}" target="_blank" rel="noopener"><span
+                            data-feather='presentation'></span></a>{{ end }}
+                    {{ if .video }}<a href="{{ .video }}" target="_blank" rel="noopener"><span
+                            data-feather='video'></span></a>{{ end }}
+                    {{ if .arxiv }}<a href="{{ .arxiv }}" target="_blank" rel="noopener"><span
+                            data-feather='book'></span></a>{{ end }}
+                </div>
+                <div class="pub-authors">{{ .authors | replaceRE "Xiang Chen" "<strong>Xiang Chen</strong>" | safeHTML
+                    }}</div>
+                <div class="pub-venue">{{ .venue }} {{ if .venue_short }} (<strong>{{ .venue_short }}</strong>){{ end }}
+                </div>
+            </li>
+            {{ end }}
         </ul>
         {{ end }}
         {{ end }}
     </div>
-    
+
     {{ if .Site.Params.ShowBackToTopButton }}
-        {{ partial "back-to-top.html" . }}
+    {{ partial "back-to-top.html" . }}
     {{ end }}
 </div>
 {{ end }}

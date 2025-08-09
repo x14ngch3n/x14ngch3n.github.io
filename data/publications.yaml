@@ -1,9 +1,8 @@
 2024:
   - title: "IntTracer: Sanitization-aware IO2BO Vulnerability Detection across Codebases"
     authors: "Xiang Chen"
-    venue: "2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings"
-    venue_short: "ICSE-Companion '24"
-    year: 2024
+    venue: "The IEEE/ACM International Conference on Software Engineering: Student Research Competition"
+    venue_short: "ICSE SRC '24"
     pdf: "https://dl.acm.org/doi/pdf/10.1145/3639478.3641223"
     code: "https://github.com/x14ngch3n/tracer-infer"
     selected: true
@@ -12,7 +11,6 @@
     authors: "Tianming Zheng, Haojun Liu, Hang Xu, Xiang Chen, Ping Yi, Yue Wu"
     venue: "Computers & Security"
     venue_short: null
-    year: 2024
     pdf: "https://doi.org/10.1016/j.cose.2024.103992"
     code: null
     selected: false
