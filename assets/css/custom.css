@@ -1,7 +1,18 @@
 /* Custom font configuration for LXGW Bright */
 
-/* Import LXGW Bright font from GitHub */
-@import url('https://cdn.jsdelivr.net/npm/lxgw-bright@1.0.0/lxgwbright.css');
+/* Use local LXGW Bright font */
+@font-face {
+  font-family: 'LXGW Bright';
+  src: url('/fonts/LXGWBright-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LXGW Bright';
+  src: url('/fonts/LXGWBright-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
 
 /* Override default font families */
 :root {
