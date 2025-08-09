@@ -72,3 +72,9 @@ body {
   text-rendering: optimizeLegibility;
   font-feature-settings: "liga" 1, "kern" 1;
 }
+
+/* Custom css for home page */
+
+.home-content {
+  line-height: 1.5em;
+}
