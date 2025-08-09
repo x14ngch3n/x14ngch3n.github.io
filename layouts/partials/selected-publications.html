@@ -1,0 +1,26 @@
+{{/*
+  Partial: selected-publications.html
+  Description: Displays selected publications from data/publications.yaml on the homepage.
+*/}}
+
+{{ $pubs := slice }}
+{{ range $year, $list := .Site.Data.publications }}
+  {{ range $list }}
+    {{ if .selected }}
+      {{ $pubs = $pubs | append (dict "title" .title "authors" .authors "venue" .venue "venue_short" .venue_short "year" .year "pdf" .pdf "code" .code) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if gt (len $pubs) 0 }}
+<div class="selected-publications">
+  <ul>
+    {{ range $pubs }}
+      <li>
+        {{ .authors | replaceRE "Xiang Chen" "<strong>Xiang Chen</strong>" | safeHTML }} | <strong>{{ .title }}</strong> | <em>{{ .venue }}</em>{{ if .venue_short }} (<strong>{{ .venue_short }}</strong>){{ end }}  
+        {{ if .pdf }}<a href="{{ .pdf }}" target="_blank" rel="noopener"><span data-feather='file-text'></span></a>{{ end }}
+      </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}

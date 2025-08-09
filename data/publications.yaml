@@ -6,6 +6,7 @@
     year: 2024
     pdf: "https://dl.acm.org/doi/pdf/10.1145/3639478.3641223"
     code: "https://github.com/x14ngch3n/tracer-infer"
+    selected: true
     
   - title: "Few-VulD: A Few-shot learning framework for software vulnerability detection"
     authors: "Tianming Zheng, Haojun Liu, Hang Xu, Xiang Chen, Ping Yi, Yue Wu"
@@ -14,6 +15,7 @@
     year: 2024
     pdf: "https://doi.org/10.1016/j.cose.2024.103992"
     code: null
+    selected: false
 
 2025:
   # Add future publications here
