@@ -16,4 +16,13 @@
     selected: false
 
 2025:
+  - title: "ClearAgent: Agentic Binary Analysis for Effective Vulnerability Detection"
+    authors: "Xiang Chen, Anshunkang Zhou, Chengfeng Ye, Charles Zhang"
+    venue: "(To appear) The 1st International Workshop on Language Models and Programming Languages"
+    venue_short: "LMPL '25"
+    pdf: null
+    code: null
+    selected: true
+  
+2026:
   # Add future publications here
