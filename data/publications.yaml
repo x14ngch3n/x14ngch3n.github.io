@@ -1,28 +1,28 @@
-2024:
-  - title: "IntTracer: Sanitization-aware IO2BO Vulnerability Detection across Codebases"
-    authors: "Xiang Chen"
-    venue: "The IEEE/ACM International Conference on Software Engineering: Student Research Competition"
-    venue_short: "ICSE SRC '24"
-    pdf: "https://dl.acm.org/doi/pdf/10.1145/3639478.3641223"
-    code: "https://github.com/x14ngch3n/tracer-infer"
-    selected: true
-    
-  - title: "Few-VulD: A Few-shot learning framework for software vulnerability detection"
-    authors: "Tianming Zheng, Haojun Liu, Hang Xu, Xiang Chen, Ping Yi, Yue Wu"
-    venue: "Computers & Security"
-    venue_short: null
-    pdf: "https://doi.org/10.1016/j.cose.2024.103992"
-    code: null
-    selected: false
+- title: "ClearAgent: Agentic Binary Analysis for Effective Vulnerability Detection"
+  authors: "Xiang Chen, Anshunkang Zhou, Chengfeng Ye, Charles Zhang"
+  venue: "The 1st International Workshop on Language Models and Programming Languages"
+  venue_short: "LMPL '25"
+  pdf: null
+  code: null
+  selected: true
+  year: 2025
 
-2025:
-  - title: "ClearAgent: Agentic Binary Analysis for Effective Vulnerability Detection"
-    authors: "Xiang Chen, Anshunkang Zhou, Chengfeng Ye, Charles Zhang"
-    venue: "(To appear) The 1st International Workshop on Language Models and Programming Languages"
-    venue_short: "LMPL '25"
-    pdf: null
-    code: null
-    selected: true
-  
-2026:
-  # Add future publications here
+- title: "IntTracer: Sanitization-aware IO2BO Vulnerability Detection across Codebases"
+  authors: "Xiang Chen"
+  venue: "The IEEE/ACM International Conference on Software Engineering: Student Research Competition"
+  venue_short: "ICSE SRC '24"
+  pdf: "https://dl.acm.org/doi/pdf/10.1145/3639478.3641223"
+  code: "https://github.com/x14ngch3n/tracer-infer"
+  selected: true
+  year: 2024
+
+- title: "Few-VulD: A Few-shot learning framework for software vulnerability detection"
+  authors: "Tianming Zheng, Haojun Liu, Hang Xu, Xiang Chen, Ping Yi, Yue Wu"
+  venue: "Computers & Security '24"
+  venue_short: null
+  pdf: "https://doi.org/10.1016/j.cose.2024.103992"
+  code: null
+  selected: false
+  year: 2024
+
+# Add future publications here

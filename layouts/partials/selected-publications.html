@@ -1,21 +1,7 @@
-{{/*
-Partial: selected-publications.html
-Description: Displays selected publications from data/publications.yaml on the homepage.
-*/}}
+{{ range sort .Site.Data.publications ".year" "desc" }}
 
-{{ $pubs := slice }}
-{{ range $year, $list := .Site.Data.publications }}
-{{ range $list }}
-{{ if .selected }}
-{{ $pubs = $pubs | append (dict "title" .title "authors" .authors "venue" .venue "venue_short" .venue_short "year" .year
-"pdf" .pdf "code" .code) }}
-{{ end }}
-{{ end }}
-{{ end }}
-
-{{ if gt (len $pubs) 0 }}
 <ul>
-  {{ range $pubs }}
+  {{ if .selected }}
   <li class="publication-item">
     <div class="pub-title"><strong>{{ .title }}</strong>
       {{ if .pdf }}<a href="{{ .pdf }}" target="_blank" rel="noopener"><span data-feather='file-text'></span></a>{{ end }}
@@ -25,7 +11,8 @@ Description: Displays selected publications from data/publications.yaml on the h
       {{ if .arxiv }}<a href="{{ .arxiv }}" target="_blank" rel="noopener"><span data-feather='book'></span></a>{{ end }}
     </div>
     <div class="pub-authors">{{ .authors | replaceRE "Xiang Chen" "<strong>Xiang Chen</strong>" | safeHTML }}</div>
-    <div class="pub-venue">{{ .venue }} {{ if .venue_short }} (<strong>{{ .venue_short }}</strong>){{ end }}</div>
+    <div class="pub-venue">{{ .venue }} {{ if .venue_short }} (<strong>{{ .venue_short }}</strong>){{ end }}
+    </div>
   </li>
   {{ end }}
 </ul>
