@@ -8,6 +8,7 @@
         {{ .Content }}
 
         {{ range sort .Site.Data.publications ".year" "desc" }}
+
         <ul>
             <li class="publication-item">
                 <div class="pub-title"><strong>{{ .title }}</strong>
