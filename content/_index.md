@@ -21,7 +21,7 @@ Full list [here](/publications).
 
 ## Awards
 
-- Postgraduate Scholarship (PGS), 2024 - now
+- HKUST Postgraduate Scholarship (PGS), 2024 - now
 - Shanghai Jiao Tong University Outstanding Graduate **(<10%)**, 2024
 - DEFCON CTF 30 **Second** place (played with Katzebin), 2022
 - Zhiyuan Honor Bachelor Degree **(Cum Laude, <1%)**, 2021
