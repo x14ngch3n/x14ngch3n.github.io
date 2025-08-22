@@ -2,7 +2,7 @@
   authors: "Xiang Chen, Anshunkang Zhou, Chengfeng Ye, Charles Zhang"
   venue: "The 1st International Workshop on Language Models and Programming Languages"
   venue_short: "LMPL '25"
-  pdf: null
+  pdf: "https://doi.org/10.1145/3759425.3763397"
   code: null
   selected: true
   year: 2025
@@ -11,7 +11,7 @@
   authors: "Xiang Chen"
   venue: "The IEEE/ACM International Conference on Software Engineering: Student Research Competition"
   venue_short: "ICSE SRC '24"
-  pdf: "https://dl.acm.org/doi/pdf/10.1145/3639478.3641223"
+  pdf: "https://doi.org/10.1145/3639478.3641223"
   code: "https://github.com/x14ngch3n/tracer-infer"
   selected: true
   year: 2024
