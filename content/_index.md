@@ -1,6 +1,6 @@
 ## Bio
 
-I am a first-year Ph.D. student at The Hong Kong University of Science and Technology, supervised by [Charles Zhang](https://cse.hkust.edu.hk/~charlesz).
+I am a second-year Ph.D. student at The Hong Kong University of Science and Technology, supervised by [Charles Zhang](https://cse.hkust.edu.hk/~charlesz).
 Before that, I obtained my Bachelor's (2021) and Master’s (2024) degrees at Shanghai Jiao Tong University.
 
 Currently my research interests focus on [Binary Lifting](https://decompilation.wiki/fundamentals/cfg-recovery/lifting/#llvm-ir-based-lifting) (Binary -> Assembly -> LLVM IR) and its downstream applications (Bug detection, Decompilation, Agentic Tooling).
