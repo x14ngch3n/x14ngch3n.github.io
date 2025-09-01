@@ -21,6 +21,7 @@ Full list [here](/publications).
 
 ## Awards
 
+- ICFP/SPLASH '25 Registration Grant from AWS, 2025
 - HKUST Postgraduate Scholarship (PGS), 2024 - now
 - Shanghai Jiao Tong University Outstanding Graduate **(<10%)**, 2024
 - DEFCON CTF 30 **Second** place (played with Katzebin), 2022
