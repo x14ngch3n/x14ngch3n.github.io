@@ -33,4 +33,5 @@ Full list [here](/publications).
 - HKUST Firebird CTF Team Coach, 2025 - now
 - HKUST COMP3021: Java Programming TA, 2025
 - SJTU IS308: Computer System Security TA, 2023
-- SJTU NIS7021:  Software and System Security TA, 2022
+- SJTU NIS7021: Software and System Security TA, 2022
+- SJTU MA267: Mathematical Analysis TA, 2020
