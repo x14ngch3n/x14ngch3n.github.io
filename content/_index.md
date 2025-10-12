@@ -21,7 +21,7 @@ Full list [here](/publications).
 
 ## Awards
 
-- HKUST Research Travel Grant, 2025
+- HKUST Research Travel Grant (RTG), 2025
 - ICFP/SPLASH '25 Registration Grant from AWS, 2025
 - HKUST Postgraduate Scholarship (PGS), 2024 - now
 - Shanghai Jiao Tong University Outstanding Graduate **(<10%)**, 2024
