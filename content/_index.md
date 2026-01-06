@@ -16,7 +16,7 @@ Full list [here](/publications).
 
 ## Services
 
-- Artifact Evaluation Committee (AEC): [USENIX Sec '25](https://secartifacts.github.io/usenixsec2025/awards#-noteworthy-reviewer-recognition), PLDI '25, OSDI '25, CCS '25, NDSS '26, IEEE S&P '26
+- Artifact Evaluation Committee (AEC): [USENIX Sec '25](https://secartifacts.github.io/usenixsec2025/awards#-noteworthy-reviewer-recognition), PLDI '25, OSDI '25, CCS '25, NDSS '26, IEEE S&P '26, PLDI '26
 - Sub-Reviewer: TSE '25, LLM4Code '26, OOPSLA '26
 
 ## Awards
