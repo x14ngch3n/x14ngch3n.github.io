@@ -12,6 +12,10 @@ from datetime import datetime
 from collections import Counter, defaultdict
 import unicodedata
 
+# Reading speed constants
+ENGLISH_WORDS_PER_MINUTE = 200  # Average reading speed for English
+CHINESE_CHARS_PER_MINUTE = 300  # Average reading speed for Chinese characters
+
 
 def is_chinese(char):
     """Check if a character is Chinese."""
@@ -84,9 +88,9 @@ def analyze_post(filepath):
     
     word_stats = count_words(content_without_frontmatter)
     
-    # Calculate reading time (assuming 200 words per minute for English, 300 chars per minute for Chinese)
-    reading_time_en = word_stats['english_words'] / 200
-    reading_time_zh = word_stats['chinese_chars'] / 300
+    # Calculate reading time using defined constants
+    reading_time_en = word_stats['english_words'] / ENGLISH_WORDS_PER_MINUTE
+    reading_time_zh = word_stats['chinese_chars'] / CHINESE_CHARS_PER_MINUTE
     reading_time = max(reading_time_en + reading_time_zh, 1)  # At least 1 minute
     
     return {
@@ -196,8 +200,9 @@ def generate_analysis_report(posts):
 
 def main():
     """Main function to analyze all blog posts."""
-    # Find all blog posts
-    posts_dir = Path('/home/runner/work/x14ngch3n.github.io/x14ngch3n.github.io/content/posts')
+    # Use relative paths from the script location
+    script_dir = Path(__file__).parent
+    posts_dir = script_dir / 'content' / 'posts'
     
     if not posts_dir.exists():
         print(f"Error: Posts directory not found at {posts_dir}")
@@ -227,8 +232,8 @@ def main():
     # Generate report
     report = generate_analysis_report(posts_data)
     
-    # Save report to file
-    report_file = Path('/home/runner/work/x14ngch3n.github.io/x14ngch3n.github.io/blog_analysis_report.txt')
+    # Save report to file using relative path
+    report_file = script_dir / 'blog_analysis_report.txt'
     with open(report_file, 'w', encoding='utf-8') as f:
         f.write(report)
     
@@ -236,7 +241,7 @@ def main():
     print(f"\nReport saved to: {report_file}")
     
     # Also save JSON data for potential further analysis
-    json_file = Path('/home/runner/work/x14ngch3n.github.io/x14ngch3n.github.io/blog_analysis_data.json')
+    json_file = script_dir / 'blog_analysis_data.json'
     with open(json_file, 'w', encoding='utf-8') as f:
         json.dump(posts_data, f, indent=2, ensure_ascii=False)
     
