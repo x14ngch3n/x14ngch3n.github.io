@@ -15,15 +15,24 @@ import unicodedata
 # Reading speed constants
 ENGLISH_WORDS_PER_MINUTE = 200  # Average reading speed for English
 CHINESE_CHARS_PER_MINUTE = 300  # Average reading speed for Chinese characters
+MIN_READING_TIME_MINUTES = 1  # Minimum reading time to display
 
 
 def is_chinese(char):
     """Check if a character is Chinese."""
-    return 'CJK' in unicodedata.name(char, '')
+    try:
+        return 'CJK' in unicodedata.name(char, '')
+    except (ValueError, TypeError):
+        return False
 
 
 def count_words(text):
-    """Count words in text, handling both English and Chinese."""
+    """
+    Count words in text, handling both English and Chinese.
+    
+    Note: This function uses simple regex patterns for markdown removal.
+    It may not handle all edge cases like nested backticks or complex markdown structures.
+    """
     # Remove markdown syntax
     text = re.sub(r'```[\s\S]*?```', '', text)  # Remove code blocks
     text = re.sub(r'`[^`]*`', '', text)  # Remove inline code
@@ -42,7 +51,12 @@ def count_words(text):
 
 
 def parse_frontmatter(content):
-    """Parse TOML frontmatter from markdown file."""
+    """
+    Parse TOML frontmatter from markdown file.
+    
+    Note: This parser uses simple regex patterns and may not handle all TOML edge cases,
+    such as tags containing commas. For production use, consider using a proper TOML parser.
+    """
     match = re.match(r'\+\+\+(.*?)\+\+\+', content, re.DOTALL)
     if not match:
         return {}
@@ -60,7 +74,7 @@ def parse_frontmatter(content):
     if title_match:
         metadata['title'] = title_match.group(1)
     
-    # Parse tags
+    # Parse tags (simple implementation - may not handle commas in tag names)
     tags_match = re.search(r"tags\s*=\s*\[(.*?)\]", frontmatter_text)
     if tags_match:
         tags_str = tags_match.group(1)
@@ -91,7 +105,7 @@ def analyze_post(filepath):
     # Calculate reading time using defined constants
     reading_time_en = word_stats['english_words'] / ENGLISH_WORDS_PER_MINUTE
     reading_time_zh = word_stats['chinese_chars'] / CHINESE_CHARS_PER_MINUTE
-    reading_time = max(reading_time_en + reading_time_zh, 1)  # At least 1 minute
+    reading_time = max(reading_time_en + reading_time_zh, MIN_READING_TIME_MINUTES)
     
     return {
         'filename': filepath.name,
