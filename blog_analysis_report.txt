@@ -24,7 +24,7 @@ Latest post: 2025 Spring Review (2026-01-05)
 Posts per year:
   2023: 2 posts
   2024: 2 posts
-  2026: 1 posts
+  2026: 1 post
 
 ## TAG ANALYSIS
 --------------------------------------------------------------------------------
@@ -33,9 +33,9 @@ Total unique tags: 5
 Most common tags:
   conference: 2 posts
   misc: 2 posts
-  llvm: 1 posts
-  integer overflow: 1 posts
-  bug detection: 1 posts
+  llvm: 1 post
+  integer overflow: 1 post
+  bug detection: 1 post
 
 ## INDIVIDUAL POST DETAILS
 --------------------------------------------------------------------------------

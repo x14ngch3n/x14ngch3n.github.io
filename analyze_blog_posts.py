@@ -156,7 +156,8 @@ def generate_analysis_report(posts):
         year_counts = Counter(p['date'][:4] for p in dated_posts)
         report.append("\nPosts per year:")
         for year in sorted(year_counts.keys()):
-            report.append(f"  {year}: {year_counts[year]} posts")
+            post_word = "post" if year_counts[year] == 1 else "posts"
+            report.append(f"  {year}: {year_counts[year]} {post_word}")
     report.append("")
     
     # Tag analysis
@@ -171,7 +172,8 @@ def generate_analysis_report(posts):
     report.append(f"Total unique tags: {len(tag_counts)}")
     report.append("\nMost common tags:")
     for tag, count in tag_counts.most_common(10):
-        report.append(f"  {tag}: {count} posts")
+        post_word = "post" if count == 1 else "posts"
+        report.append(f"  {tag}: {count} {post_word}")
     report.append("")
     
     # Individual post details
