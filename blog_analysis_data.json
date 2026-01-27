@@ -1,0 +1,89 @@
+[
+  {
+    "filename": "ospp-llvm-instcombine.md",
+    "title": "OSPP 2023: Optimizing LLVM InstCombine Pass",
+    "date": "2023-09-06T20:38:31+08:00",
+    "tags": [
+      "llvm"
+    ],
+    "type": "post",
+    "word_count": {
+      "chinese_chars": 1884,
+      "english_words": 71,
+      "total": 1955
+    },
+    "reading_time_minutes": 6.6,
+    "has_chinese": true,
+    "has_english": true
+  },
+  {
+    "filename": "inttracer-icse-src.md",
+    "title": "IntTracer for ICSE SRC ",
+    "date": "2024-01-14T20:30:08+08:00",
+    "tags": [
+      "integer overflow",
+      "conference"
+    ],
+    "type": "post",
+    "word_count": {
+      "chinese_chars": 2880,
+      "english_words": 276,
+      "total": 3156
+    },
+    "reading_time_minutes": 11.0,
+    "has_chinese": true,
+    "has_english": true
+  },
+  {
+    "filename": "2024-annual-review.md",
+    "title": "2024 Annual Review",
+    "date": "2024-12-30T20:03:54+08:00",
+    "tags": [
+      "misc"
+    ],
+    "type": "post",
+    "word_count": {
+      "chinese_chars": 3525,
+      "english_words": 60,
+      "total": 3585
+    },
+    "reading_time_minutes": 12.1,
+    "has_chinese": true,
+    "has_english": true
+  },
+  {
+    "filename": "goshawk-tutorial-asiaccs.md",
+    "title": "Goshawk Tutorial for AsiaCCS ",
+    "date": "2023-04-12T20:34:00+08:00",
+    "tags": [
+      "bug detection",
+      "conference"
+    ],
+    "type": "post",
+    "word_count": {
+      "chinese_chars": 1036,
+      "english_words": 92,
+      "total": 1128
+    },
+    "reading_time_minutes": 3.9,
+    "has_chinese": true,
+    "has_english": true
+  },
+  {
+    "filename": "2025-annual-review.md",
+    "title": "2025 Spring Review",
+    "date": "2026-01-05T21:12:28+08:00",
+    "tags": [
+      "misc"
+    ],
+    "type": "post",
+    "word_count": {
+      "chinese_chars": 3248,
+      "english_words": 61,
+      "total": 3309
+    },
+    "reading_time_minutes": 11.1,
+    "has_chinese": true,
+    "has_english": true
+  }
+]

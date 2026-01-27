@@ -1,0 +1,80 @@
+================================================================================
+BLOG POST ANALYSIS REPORT
+================================================================================
+
+## OVERALL STATISTICS
+--------------------------------------------------------------------------------
+Total number of posts: 5
+Total word count: 13,133
+Total reading time: 44.7 minutes (0.7 hours)
+Average words per post: 2627
+Average reading time per post: 8.9 minutes
+
+## LANGUAGE DISTRIBUTION
+--------------------------------------------------------------------------------
+Bilingual posts (Chinese + English): 5
+Chinese-only posts: 0
+English-only posts: 0
+
+## PUBLICATION TIMELINE
+--------------------------------------------------------------------------------
+First post: Goshawk Tutorial for AsiaCCS  (2023-04-12)
+Latest post: 2025 Spring Review (2026-01-05)
+
+Posts per year:
+  2023: 2 posts
+  2024: 2 posts
+  2026: 1 posts
+
+## TAG ANALYSIS
+--------------------------------------------------------------------------------
+Total unique tags: 5
+
+Most common tags:
+  conference: 2 posts
+  misc: 2 posts
+  llvm: 1 posts
+  integer overflow: 1 posts
+  bug detection: 1 posts
+
+## INDIVIDUAL POST DETAILS
+--------------------------------------------------------------------------------
+
+1. 2025 Spring Review
+   Date: 2026-01-05
+   File: 2025-annual-review.md
+   Tags: misc
+   Word count: 3,309 (EN: 61, ZH: 3248)
+   Reading time: 11.1 minutes
+
+2. 2024 Annual Review
+   Date: 2024-12-30
+   File: 2024-annual-review.md
+   Tags: misc
+   Word count: 3,585 (EN: 60, ZH: 3525)
+   Reading time: 12.1 minutes
+
+3. IntTracer for ICSE SRC 
+   Date: 2024-01-14
+   File: inttracer-icse-src.md
+   Tags: integer overflow, conference
+   Word count: 3,156 (EN: 276, ZH: 2880)
+   Reading time: 11.0 minutes
+
+4. OSPP 2023: Optimizing LLVM InstCombine Pass
+   Date: 2023-09-06
+   File: ospp-llvm-instcombine.md
+   Tags: llvm
+   Word count: 1,955 (EN: 71, ZH: 1884)
+   Reading time: 6.6 minutes
+
+5. Goshawk Tutorial for AsiaCCS 
+   Date: 2023-04-12
+   File: goshawk-tutorial-asiaccs.md
+   Tags: bug detection, conference
+   Word count: 1,128 (EN: 92, ZH: 1036)
+   Reading time: 3.9 minutes
+
+================================================================================
+END OF REPORT
+================================================================================
