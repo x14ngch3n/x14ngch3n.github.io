@@ -18,7 +18,7 @@
   },
   {
     "filename": "inttracer-icse-src.md",
-    "title": "IntTracer for ICSE SRC ",
+    "title": "IntTracer for ICSE SRC '24",
     "date": "2024-01-14T20:30:08+08:00",
     "tags": [
       "integer overflow",
@@ -53,7 +53,7 @@
   },
   {
     "filename": "goshawk-tutorial-asiaccs.md",
-    "title": "Goshawk Tutorial for AsiaCCS ",
+    "title": "Goshawk Tutorial for AsiaCCS '23",
     "date": "2023-04-12T20:34:00+08:00",
     "tags": [
       "bug detection",

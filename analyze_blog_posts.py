@@ -69,8 +69,12 @@ def parse_frontmatter(content):
     if date_match:
         metadata['date'] = date_match.group(1)
     
-    # Parse title
-    title_match = re.search(r"title\s*=\s*['\"]([^'\"]+)['\"]", frontmatter_text)
+    # Parse title - handle both single and double quotes
+    # Try double quotes first (can contain single quotes)
+    title_match = re.search(r'title\s*=\s*"([^"]*)"', frontmatter_text)
+    if not title_match:
+        # Try single quotes
+        title_match = re.search(r"title\s*=\s*'([^']*)'", frontmatter_text)
     if title_match:
         metadata['title'] = title_match.group(1)
     

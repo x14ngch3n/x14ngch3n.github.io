@@ -18,7 +18,7 @@ English-only posts: 0
 
 ## PUBLICATION TIMELINE
 --------------------------------------------------------------------------------
-First post: Goshawk Tutorial for AsiaCCS  (2023-04-12)
+First post: Goshawk Tutorial for AsiaCCS '23 (2023-04-12)
 Latest post: 2025 Spring Review (2026-01-05)
 
 Posts per year:
@@ -54,7 +54,7 @@ Most common tags:
    Word count: 3,585 (EN: 60, ZH: 3525)
    Reading time: 12.1 minutes
 
-3. IntTracer for ICSE SRC 
+3. IntTracer for ICSE SRC '24
    Date: 2024-01-14
    File: inttracer-icse-src.md
    Tags: integer overflow, conference
@@ -68,7 +68,7 @@ Most common tags:
    Word count: 1,955 (EN: 71, ZH: 1884)
    Reading time: 6.6 minutes
 
-5. Goshawk Tutorial for AsiaCCS 
+5. Goshawk Tutorial for AsiaCCS '23
    Date: 2023-04-12
    File: goshawk-tutorial-asiaccs.md
    Tags: bug detection, conference
