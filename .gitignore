@@ -2,3 +2,7 @@
 .hugo_build.lock
 # Ignore build dir (hugo server)
 public/
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
