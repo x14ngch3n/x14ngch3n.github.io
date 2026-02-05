@@ -1,6 +1,6 @@
 +++
 date = '2026-01-05T21:12:28+08:00'
-title = '2025 Spring Review'
+title = '2025 Annual Review'
 tags = ['misc']
 showTableOfContents = true
 type = 'post'
