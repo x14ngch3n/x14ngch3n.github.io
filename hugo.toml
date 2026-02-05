@@ -83,16 +83,10 @@ title = "Xiang Chen 谌翔"
     weight = 5
 
   [[menu.main]]
-    name = "Timeline"
-    url = "https://xiangchen.notion.site/22a0ea3f3805809d9812e114ff925935?v=22a0ea3f380580d7b0ec000cf5e0b869"
-    pre = "<span data-feather='calendar'></span>"
-    weight = 6
-
-  [[menu.main]]
     name = "Footprint"
     url = "https://maps.app.goo.gl/e4Ee7Xrv5Ahho4uj8"
     pre = "<span data-feather='map'></span>"
-    weight = 7
+    weight = 6
 
 [markup]
   [markup.tableOfContents]
