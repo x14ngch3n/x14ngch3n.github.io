@@ -20,7 +20,7 @@ title = "Xiang Chen 谌翔"
   avatarSize = "size-m"
   avatarURL = "/images/selfile-26.jpg"
 
-  description = "PhD student in CSE, HKUST"
+  description = "PhD candidate in CSE, HKUST"
   # Enable dynamic footer with today's date
   lastUpdated = true
   metaKeywords = ["academic", "research"]
