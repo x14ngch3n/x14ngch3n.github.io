@@ -3,7 +3,7 @@
 I am a second-year PhD student at The Hong Kong University of Science and Technology, supervised by [Charles Zhang](https://cse.hkust.edu.hk/~charlesz).
 Before that, I obtained my Bachelor's (2021) and Master's (2024) degrees at Shanghai Jiao Tong University.
 
-Currently my research interests focus on [Binary Lifting](https://decompilation.wiki/fundamentals/cfg-recovery/lifting/#llvm-ir-based-lifting) (Binary -> Assembly -> LLVM IR) and its downstream applications (e.g., vulnerability detection, de-obfuscation, agent harnessing).
+Currently my research interests focus on [Binary Lifting](https://decompilation.wiki/fundamentals/cfg-recovery/lifting/#llvm-ir-based-lifting) (Binary -> Assembly -> LLVM IR) and its downstream applications (e.g., [vulnerability detection](/bugs/), de-obfuscation, agent harnessing).
 I am actively involved in the [Clearblue](https://clearblueinnovations.org/) research project.
 
 In my spare time, I enjoy playing basketball, video gaming, [CTF](https://cse.hkust.edu.hk/pg/tac/), [hiking](https://maps.app.goo.gl/TiUNYrxkEL8AH1ZYA), and cooking.

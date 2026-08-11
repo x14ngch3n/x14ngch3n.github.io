@@ -3,7 +3,7 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 languageCode = "en"
 theme = "gokarna"
-title = "Xiang Chen 谌翔"
+title = "Xiang Chen"
 
 [params]
   socialIcons = [
@@ -71,15 +71,15 @@ title = "Xiang Chen 谌翔"
     weight = 3
 
   [[menu.main]]
-    name = "CV"
-    url = "/pdf/cv.pdf"
-    pre = "<span data-feather='user'></span>"
+    name = "Bugs"
+    url = "/bugs/"
+    pre = "<span data-feather='award'></span>"
     weight = 4
 
   [[menu.main]]
-    name = "Footprint"
-    url = "https://maps.app.goo.gl/e4Ee7Xrv5Ahho4uj8"
-    pre = "<span data-feather='map'></span>"
+    name = "CV"
+    url = "/pdf/cv.pdf"
+    pre = "<span data-feather='user'></span>"
     weight = 5
 
 [markup]
