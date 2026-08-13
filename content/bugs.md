@@ -7,6 +7,11 @@ title: "Bugs"
 - [unace: heap buffer over-read in magic scanner](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1138160)
 - [unace-nonfree: overlapping strcpy in path processing](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1138161)
 - [llama.cpp: ggml-backend-meta axis <= GGML_MAX_DIMS off-by-one](https://github.com/ggml-org/llama.cpp/issues/26367)
+- [llama.cpp: divide-by-zero in gguf_init_from_buffer](https://github.com/ggml-org/llama.cpp/pull/25596) (found individually)
+- [mlx: out-of-bounds read in GGUF metadata loader](https://github.com/ml-explore/mlx/issues/4213)
+- [llama.cpp: GGUF loader accepts a tensor size that wraps to 0 after padding](https://github.com/ggml-org/llama.cpp/issues/26978)
+- [LiteRT: integer overflow to out-of-bounds](https://github.com/google-ai-edge/LiteRT/issues/9255)
+- [stable-diffusion.cpp: signed shape-product wrap in safetensors reader](https://github.com/leejet/stable-diffusion.cpp/issues/1876)
 
 ## CVEs
 
