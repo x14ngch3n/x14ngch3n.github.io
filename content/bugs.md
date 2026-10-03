@@ -2,16 +2,18 @@
 title: "Bugs"
 ---
 
-## OSS bugs
+## GitHub issues
 
-- [unace: heap buffer over-read in magic scanner](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1138160)
-- [unace-nonfree: overlapping strcpy in path processing](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1138161)
-- [llama.cpp: ggml-backend-meta axis <= GGML_MAX_DIMS off-by-one](https://github.com/ggml-org/llama.cpp/issues/26367)
-- [mlx: out-of-bounds read in GGUF metadata loader](https://github.com/ml-explore/mlx/issues/4213) ([fix](https://github.com/ml-explore/mlx/pull/4212))
-- [llama.cpp: GGUF loader accepts a tensor size that wraps to 0 after padding](https://github.com/ggml-org/llama.cpp/issues/26978)
-- [LiteRT: integer overflow to out-of-bounds](https://github.com/google-ai-edge/LiteRT/issues/9255)
-- [stable-diffusion.cpp: signed shape-product wrap in safetensors reader](https://github.com/leejet/stable-diffusion.cpp/issues/1876)
+- llama.cpp: [#26366](https://github.com/ggml-org/llama.cpp/issues/26366), [#26367](https://github.com/ggml-org/llama.cpp/issues/26367), [#26978](https://github.com/ggml-org/llama.cpp/issues/26978), [#27166](https://github.com/ggml-org/llama.cpp/issues/27166), [#27223](https://github.com/ggml-org/llama.cpp/issues/27223), [#27224](https://github.com/ggml-org/llama.cpp/issues/27224), [#27225](https://github.com/ggml-org/llama.cpp/issues/27225), [#27226](https://github.com/ggml-org/llama.cpp/issues/27226), [#27259](https://github.com/ggml-org/llama.cpp/issues/27259), [#29780](https://github.com/ggml-org/llama.cpp/issues/29780)
+- candle: [#3815](https://github.com/huggingface/candle/issues/3815), [#3816](https://github.com/huggingface/candle/issues/3816)
+- ds4: [#823](https://github.com/antirez/ds4/issues/823), [#825](https://github.com/antirez/ds4/issues/825)
+- LiteRT: [#9255](https://github.com/google-ai-edge/LiteRT/issues/9255)
+- mlx: [#4213](https://github.com/ml-explore/mlx/issues/4213)
+- retdec: [#1249](https://github.com/avast/retdec/issues/1249)
+- stable-diffusion.cpp: [#1876](https://github.com/leejet/stable-diffusion.cpp/issues/1876)
+- unace: [#1138160](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1138160), [#1138161](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1138161)
+- vllm-gguf-plugin: [#127](https://github.com/vllm-project/vllm-gguf-plugin/issues/127)
 
 ## CVEs
 
-- [CVE-2021-XXXX command injection in XXX IoT device](https://nvd.nist.gov/vuln/detail/CVE-2021-XXXX)
+- Nvidia: [CVE-2026-65167](https://github.com/NVIDIA/TensorRT), [CVE-2026-65169](https://github.com/NVIDIA/TensorRT)
