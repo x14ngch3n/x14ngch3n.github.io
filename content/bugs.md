@@ -21,4 +21,7 @@ title: "Bugs"
 
 ## CVEs
 
+- Apple: [CVE-2026-112611](https://support.apple.com/en-us/149230)
 - Nvidia: [CVE-2026-65167](https://github.com/NVIDIA/TensorRT), [CVE-2026-65169](https://github.com/NVIDIA/TensorRT)
+- Oracle: [CVE-2026-91499](https://www.oracle.com/security-alerts/cpuoct2026.html), [CVE-2026-91479](https://www.oracle.com/security-alerts/cpuoct2026.html), [CVE-2026-101510](https://www.oracle.com/security-alerts/cpuoct2026.html)
+- llama.cpp: [CVE-2026-116840](https://www.cve.org/CVERecord?id=CVE-2026-116840)
