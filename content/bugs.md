@@ -25,3 +25,4 @@ title: "Bugs"
 - Nvidia: [CVE-2026-65167](https://github.com/NVIDIA/TensorRT), [CVE-2026-65169](https://github.com/NVIDIA/TensorRT)
 - Oracle: [CVE-2026-91499](https://www.oracle.com/security-alerts/cpuoct2026.html), [CVE-2026-91479](https://www.oracle.com/security-alerts/cpuoct2026.html), [CVE-2026-101510](https://www.oracle.com/security-alerts/cpuoct2026.html)
 - llama.cpp: [CVE-2026-116840](https://www.cve.org/CVERecord?id=CVE-2026-116840)
+- TinyEXIF: [CVE-2026-38332](https://github.com/cdcseacave/TinyEXIF/security/advisories/GHSA-jqj2-8c2j-gx82)
