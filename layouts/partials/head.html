@@ -44,7 +44,9 @@
     {{ $cssMain := resources.Get "css/main.css" | minify }}
     <link rel="stylesheet" type="text/css" href="{{ $cssMain.RelPermalink }}">
 
-    <!-- Custom CSS for LXGW Bright font -->
+    <link rel="stylesheet" href="https://fontsapi.zeoseven.com/993/main/result.css">
+
+    <!-- Custom CSS -->
     {{ $cssCustom := resources.Get "css/custom.css" | minify }}
     <link rel="stylesheet" type="text/css" href="{{ $cssCustom.RelPermalink }}">
 
